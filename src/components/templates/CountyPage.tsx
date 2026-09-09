@@ -6,7 +6,6 @@ import ServicesGrid from "@/components/sections/ServicesGrid";
 import Neighborhoods from "@/components/sections/Neighborhoods";
 import WhyChoose from "@/components/sections/WhyChoose";
 import MapEmbed from "@/components/sections/MapEmbed";
-import CityMapGrid from "@/components/sections/CityMapGrid";
 import Testimonials from "@/components/sections/Testimonials";
 import ServiceAreas from "@/components/sections/ServiceAreas";
 import FAQ from "@/components/sections/FAQ";
@@ -56,14 +55,6 @@ export default function CountyPage({ county, content }: { county: County; conten
         />
         <WhyChoose title={`Why ${county.name} households choose us`} benefits={content.benefits} />
         <MapEmbed query={county.mapQuery} title={`Our ${county.name} coverage`} />
-        <CityMapGrid
-          title={`Every ${county.name} town we serve, on the map`}
-          intro="Each area has its own page with neighborhoods, zip codes, and local answers."
-          cities={[
-            ...(county.name === "Wake County" ? [{ name: "Raleigh", href: "/", mapQuery: "Raleigh, NC" }] : []),
-            ...towns.map((t) => ({ name: t.name, href: t.href, mapQuery: t.mapQuery })),
-          ]}
-        />
         <Testimonials tone="paper" />
         <FAQ title={`${county.name} carpet cleaning questions`} items={content.faqs} tone="canvas" />
         <ServiceAreas title={`${county.name} area pages`} areas={related} tone="forest" />

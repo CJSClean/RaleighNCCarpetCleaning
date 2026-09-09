@@ -11,9 +11,9 @@ import Plans from "@/components/sections/Plans";
 import ServiceAreas from "@/components/sections/ServiceAreas";
 import Testimonials from "@/components/sections/Testimonials";
 import FAQ from "@/components/sections/FAQ";
-import CityMapGrid from "@/components/sections/CityMapGrid";
+import MapEmbed from "@/components/sections/MapEmbed";
 import CTABand from "@/components/sections/CTABand";
-import { allServiceAreas, locations } from "@/lib/data/locations";
+import { allServiceAreas } from "@/lib/data/locations";
 import { SITE_URL } from "@/lib/constants";
 import { generateFAQSchema, generateLocalBusinessSchema, SchemaScript } from "@/lib/schema";
 
@@ -171,13 +171,10 @@ export default function HomePage() {
           tone="forest"
         />
 
-        <CityMapGrid
+        <MapEmbed
+          query="Raleigh, NC"
           title="Where we work across the Triangle"
-          intro="Technicians are dispatched across Raleigh, Wake County, Durham, and Clayton seven days a week. Open any city for neighborhoods, zip codes, and local answers."
-          cities={[
-            { name: "Raleigh", href: "/", mapQuery: "Raleigh, NC" },
-            ...locations.map((l) => ({ name: l.name, href: l.href, mapQuery: l.mapQuery })),
-          ]}
+          intro="Technicians are dispatched across Raleigh, Wake County, Durham, and Clayton seven days a week."
         />
 
         <FAQ
