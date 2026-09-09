@@ -72,6 +72,31 @@ export const clayton: AreaContent = {
       answer:
         "Yes. Surface cleaning removes the visible spot, but urine that reached the pad keeps releasing odor in humid weather. Our pet stain and odor removal treats the pad with an enzyme product and extracts it, and we tell you up front which areas need it after inspecting them on the walkthrough.",
     },
+    {
+      question: "Do you clean offices and other commercial spaces in Clayton?",
+      answer:
+        "Yes. Commercial carpet cleaning covers offices in Downtown Clayton, the businesses along the US-70 corridor, medical and dental suites, and churches. We schedule most of it after hours or on a weekend so the carpet is dry before anyone walks in the next morning, and a recurring plan keeps the entries and hallways from graying between visits. Invoicing goes to the business, and we provide a certificate of insurance when the property owner asks for one.",
+    },
+    {
+      question: "Will I get the same technician on a repeat visit?",
+      answer:
+        "Usually. The technicians who cover Clayton work the Johnston County side of the route most days, so a return visit normally brings the same person or a teammate who has read your notes. We keep a record of each room's fiber, your product preference, the driveway layout, and any spots that needed a second pass, which means you do not have to walk the house again. If you want a specific technician, say so when you book and we do our best to arrange it.",
+    },
+    {
+      question: "Do I need to move the furniture before you arrive?",
+      answer:
+        "No. The technician moves sofas, chairs, and small tables, cleans under them, and sets them back on foam blocks so the legs stay off the damp carpet. Beds, dressers, and anything holding a television stay where they are and we clean around them, which is what most Clayton bonus rooms need anyway. Pick up toys, clothes, and anything on the floor before we arrive, and if there is a heavy piece you want moved, tell us on the form.",
+    },
+    {
+      question: "Can you fit a midday appointment around a plant shift?",
+      answer:
+        "Yes. Plenty of our Clayton customers work rotating shifts at Novo Nordisk or Grifols, so midday slots are a standing part of the schedule alongside the early mornings and evenings held for I-40 commuters. Tell us the hours you are home and we plan the visit inside them. Most weeks have an opening within a few days. Saturdays and the weeks right after pollen season in late May fill faster, so book those a week or two ahead.",
+    },
+    {
+      question: "Do you handle HOA parking rules and townhome driveways?",
+      answer:
+        "Yes. Flowers Plantation, Riverwood, and most of the master-planned communities in Clayton have parking rules for service vehicles, and we follow them every day. Tell us the process when you book and the technician arrives ready. In the townhomes in Cobblestone and near Downtown Clayton, we position the van so the hose run stays clear of a neighbor's driveway, and a certificate of insurance is available if the association asks. Stairs in those homes are quoted as their own line item.",
+    },
   ],
   ctaTitle: "Book a Clayton carpet cleaning this week",
   ctaDescription:

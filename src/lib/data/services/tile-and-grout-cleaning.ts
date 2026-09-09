@@ -149,6 +149,21 @@ export const tileGroutCleaning: Service = {
       answer:
         "All of Raleigh, including North Raleigh, Midtown, downtown, and the neighborhoods inside and outside the Beltline, plus Cary, Apex, Morrisville, Wake Forest, Garner, Knightdale, Holly Springs, Fuquay-Varina, Durham, and Clayton. Each area has its own page with local notes. If you are just outside those boundaries, send your zip code with the form and we will confirm.",
     },
+    {
+      question: "How often should grout be resealed?",
+      answer:
+        "Every one to three years for floors, depending on traffic and how often they are mopped. Kitchen and entry grout wears through its sealer faster than a guest bath. Showers need it more often because hot water and cleaners break the sealer down. A simple check is to drip a little water on a grout line. If it beads up, the sealer is still working. If it soaks in and darkens the grout within a minute or two, it is time to clean and reseal.",
+    },
+    {
+      question: "Can you change the color of my grout?",
+      answer:
+        "Yes, with color sealing. A color seal is a pigmented, water-based coating that goes over clean, dry grout and gives every line a uniform color, whether that is the original shade or something new. It is the answer for grout that is permanently stained, blotchy from a bad installation, or a color you never liked. It also seals the grout against mop water the way a penetrating sealer does. Color sealing is quoted separately after the floor has been cleaned, and it takes an extra visit.",
+    },
+    {
+      question: "Will cleaning fix cracked or missing grout?",
+      answer:
+        "No. Cleaning removes soil from grout that is intact. It cannot fill a gap or bond a crumbling line back together, and high-pressure rinsing can loosen grout that is already failing, so we work carefully around those spots. If we find cracked, missing, or crumbling grout on the walkthrough, we show it to you and recommend having it regrouted before the floor is sealed. Once the repair has cured, we can come back and seal the whole floor so the new and old grout match.",
+    },
   ],
   ctaTitle: "Get your grout back to its original color",
   ctaDescription:

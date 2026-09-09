@@ -7,7 +7,7 @@ import FAQ from "@/components/sections/FAQ";
 import QuoteForm from "@/components/ui/QuoteForm";
 import { ClockIcon, MailIcon, PhoneIcon, PinIcon } from "@/components/ui/Icons";
 import { HAS_PHONE, SITE_CONFIG, SITE_URL } from "@/lib/constants";
-import { generateBreadcrumbSchema, generateContactPageSchema, SchemaScript } from "@/lib/schema";
+import { generateBreadcrumbSchema, generateContactPageSchema, generateFAQSchema, SchemaScript } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "Contact Raleigh NC Carpet Cleaning",
@@ -37,6 +37,31 @@ const contactFaqs = [
     answer:
       "Contact us at least 24 hours ahead and we will move it at no charge. Inside 24 hours a rescheduling fee may apply, and same-day cancellations or lockouts may be billed because the technician has already been dispatched. Our Preparing for Your Cleaning page has the details.",
   },
+  {
+    question: "What should I include in the form for an accurate quote?",
+    answer:
+      "List the rooms, stairs, and hallways you want cleaned, or the pieces of furniture and rugs, and give a rough size for the larger areas. Mention pets, the type of carpet if you know it, and how long it has been since the last professional cleaning. Photos of problem spots help. Add your zip code and the days and times that work for you, and the first number back will be very close to the final one.",
+  },
+  {
+    question: "Do I need to be home during the cleaning?",
+    answer:
+      "Someone needs to let the technician in and walk the rooms at the start, since that is when the price is confirmed and problem spots are pointed out. After that you are free to leave, work in another room, or stay and watch. We ask that an adult be reachable by email or text while the job is running in case a question comes up, and back at the end if you want to walk the finished rooms.",
+  },
+  {
+    question: "Can you use a key, lockbox, or door code if I cannot be there?",
+    answer:
+      "Yes, and this is common for rentals, move-outs, and homes where the owner works during the day. Tell your coordinator how the technician will get in and where the lockbox or code is, and note anything we should know about alarms or pets. The technician sends you the confirmed price by text or email before starting, waits for your approval, and locks up on the way out. Photos of the finished rooms are sent on request.",
+  },
+  {
+    question: "What happens after I send the form?",
+    answer:
+      "A coordinator reads it, works out a price by the room or piece, and replies with that number and the open appointment times that fit your request. Once you pick a slot you receive a confirmation with the date, arrival window, and what to have ready. We send a reminder the day before and a message when the technician is on the way, so nothing about the visit is a surprise.",
+  },
+  {
+    question: "Do you serve my address if it is outside the towns listed?",
+    answer:
+      "Often, yes. The towns on the site are the ones we reach most, but technicians routinely go a little beyond them, especially along the main corridors out of Raleigh. Put your zip code in the form and the coordinator will tell you straight away whether we can get a van to you and whether the drive changes the schedule. If we cannot reach you, we will say so rather than guess.",
+  },
 ];
 
 const details = [
@@ -54,6 +79,7 @@ export default function ContactPage() {
       <SchemaScript
         schema={[
           generateContactPageSchema(),
+          generateFAQSchema(contactFaqs),
           generateBreadcrumbSchema([
             { name: "Home", url: "/" },
             { name: "Contact", url: "/contact" },

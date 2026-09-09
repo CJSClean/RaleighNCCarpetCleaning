@@ -81,6 +81,31 @@ export const durhamCounty: CountyContent = {
       answer:
         "Yes. Wool is cleaned with a cooler rinse and neutral chemistry, either in place or picked up for a full wash and dry at our facility depending on the rug. We test for dye stability before any water touches it.",
     },
+    {
+      question: "Is there a travel fee for Bahama or Rougemont?",
+      answer:
+        "No. Every address inside Durham County is served at the same rate, with no travel fee and no minimum that changes by distance from the city. Bahama, Rougemont, and the unincorporated northern county are grouped with other stops on the same day so the technician's route makes sense, which is why we ask for a little flexibility on the date out there. Long gravel driveways are common, so tell us the layout and the van is placed where the hose reaches.",
+    },
+    {
+      question: "I am the tenant, not the landlord. Can I book the move-out cleaning myself?",
+      answer:
+        "Yes, and most August move-outs in Durham County are booked by the tenant. Send the form with the address, the lease end date, and the rooms, and we schedule the visit after the furniture is out. You pay at the appointment and receive an itemized receipt showing the date, the rooms, and the method, which is what the leasing office asks for before releasing a deposit. If the manager prefers to be invoiced directly instead, tell us and we arrange it.",
+    },
+    {
+      question: "Do you clean offices in Research Triangle Park, or churches and schools in the county?",
+      answer:
+        "Yes. Commercial carpet cleaning covers the office buildings in Research Triangle Park, the medical suites around Duke and Southpoint, downtown storefronts, and churches and schools throughout the county. Office work is done after hours so the carpet is dry before the first badge swipe, churches are cleaned midweek and dry by Sunday, and schools are scheduled over a break. Direct invoicing, certificates of insurance, and recurring schedules are all available. Describe the space on the form and a quote follows.",
+    },
+    {
+      question: "Are upholstery, tile, and pet odor treatment available county-wide too?",
+      answer:
+        "Yes. Every service on the site is available at any Durham County address, not only carpet. Upholstery cleaning, area rug cleaning, pet stain and odor removal, tile and grout cleaning, and commercial work all come on the same truck, so a sofa in Trinity Park, a kitchen floor in Hope Valley, and a dog's favorite corner in Woodcroft can be handled on one visit. Each piece or area is quoted separately on the walkthrough before anything starts.",
+    },
+    {
+      question: "Does pollen season change when I should book?",
+      answer:
+        "It does. Pine and oak pollen falls across Durham County from March into May, and cleaning while it is still coming down only buys a few days before the entries are yellow again. The best window is late May and June, once it stops, and that is also when demand jumps, so book a week or two ahead. If someone in the house has allergies, a fall cleaning before the windows close for winter makes a noticeable difference too.",
+    },
   ],
   ctaTitle: "Book a cleaning anywhere in Durham County",
   ctaDescription:

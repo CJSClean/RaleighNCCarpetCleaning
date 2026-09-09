@@ -72,6 +72,31 @@ export const apex: AreaContent = {
       answer:
         "Usually four to eight hours. Morning appointments are typically dry by the time kids get home from school. Running the air conditioning or a ceiling fan speeds it up, and we place air movers on humid summer days.",
     },
+    {
+      question: "Do you clean tile and grout in Apex too?",
+      answer:
+        "Yes. Tile and grout cleaning is available across Apex, and it is a common add-on in the kitchens, baths, and mudrooms of the newer homes in Bella Casa, Scotts Mill, and Haddon Hall, where light grout goes gray within a few years. We pre-treat the grout lines, scrub them, and rinse with a pressurized tile tool that captures the water instead of spreading it. Sealing is available afterward. It is quoted by the area and confirmed on the walkthrough.",
+    },
+    {
+      question: "I rent in Apex. Will your receipt satisfy my landlord at move-out?",
+      answer:
+        "Yes. Most Apex leases, especially in the townhomes in Salem Village and Peakway and the apartments near Beaver Creek, require professional carpet cleaning when you leave. We leave an itemized receipt with the address, the rooms cleaned, the stairs if included, and the method used, which property managers accept. Book the day before the keys go back so the carpet is dry for the inspection, and let us know if the office needs the receipt emailed directly.",
+    },
+    {
+      question: "Can I get an evening or Saturday appointment in Apex?",
+      answer:
+        "Yes. Evening slots start after the drive back down US-64 and NC-55, and Saturday mornings are open for households that cannot do a weekday. Those times are the first to fill, so send the form a week or more ahead if you need one. Weekday mornings are easiest to get and finish before school pickup. If your date is flexible, say so and we offer the earliest opening rather than the first one you asked for.",
+    },
+    {
+      question: "My HOA in Salem Village has parking and work-hour rules. Is that a problem?",
+      answer:
+        "No. Townhome communities in Salem Village, Peakway, and around Beaver Creek have rules on where the truck parks and what hours work can happen, and we follow them. Tell us the rules when you book and we plan the arrival and the hose run around them so no neighbor's door or driveway is blocked. If the association or the property manager wants a certificate of insurance before we come, ask and we send it ahead of the appointment.",
+    },
+    {
+      question: "Should I wait until pollen season is over to book?",
+      answer:
+        "For the whole house, yes. The pines and oaks around Apex drop pollen from March into May, and carpet cleaned in the middle of it picks up a fresh coat within days. Late May and June are the best weeks for a full clean. If someone in the house has allergies, do the bedrooms early and the rest afterward. Either way, our extraction pulls pollen from the base of the pile, where a vacuum never reaches.",
+    },
   ],
   ctaTitle: "Book an Apex carpet cleaning this week",
   ctaDescription:

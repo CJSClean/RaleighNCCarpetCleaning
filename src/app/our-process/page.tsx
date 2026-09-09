@@ -81,6 +81,26 @@ const faqs = [
     answer:
       "The principles are the same, but the tools and chemistry change. Upholstery is cleaned with a hand tool and lower moisture, and delicate fabrics may be dry-cleaned. Wool and hand-knotted rugs are picked up and washed offsite. Each service page describes its own process.",
   },
+  {
+    question: "How hot is the water, and is it safe for every type of carpet?",
+    answer:
+      "The truck-mounted unit heats water well above what a rental machine can produce, and the technician adjusts both heat and pressure to the fiber identified on the walkthrough. Synthetic fibers like nylon, polyester, and olefin take the full heat. Wool and some blends get a cooler rinse and a milder pre-spray so the fiber does not felt or lose its dye. The temperature is chosen for the carpet in front of us, not set once and left alone.",
+  },
+  {
+    question: "How much water is left in the carpet when you finish?",
+    answer:
+      "Very little. The wand recovers water in the same stroke that applies it, and the truck-mounted vacuum pulls most of it back out before the technician moves to the next section. The carpet feels damp on the surface, not wet through, and the pad underneath should stay dry. That is why most rooms are dry to the touch in four to eight hours. If a carpet is soaking after a cleaning, too much water went in or too little came out.",
+  },
+  {
+    question: "Why does the technician walk the rooms with me before starting?",
+    answer:
+      "The walkthrough is where the job is actually planned. The technician identifies the fiber, counts the areas so the price can be confirmed, and looks at each spot you point out to decide how to treat it. It is also where damage gets named. Bleach spots, dye loss, burns, and fraying are not dirt and will not clean out, so you hear that before we start rather than after. Everything the technician finds is noted on the invoice.",
+  },
+  {
+    question: "What does fiber protector do, and is it worth adding?",
+    answer:
+      "Fiber protector is a clear finish applied after the rinse that coats each fiber so spills bead up and soil sits on top instead of bonding. It does not make carpet stain-proof, but it buys you time to blot a spill and makes the next cleaning more effective. It wears off in traffic lanes over a year or so and can be reapplied. It is a line item you approve on the quote, never added at the door.",
+  },
 ];
 
 export default function ProcessPage() {

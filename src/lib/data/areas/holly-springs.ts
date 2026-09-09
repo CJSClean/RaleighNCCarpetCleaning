@@ -72,6 +72,31 @@ export const hollySprings: AreaContent = {
       answer:
         "We carry a fragrance-free, plant-based line and will use it exclusively on request at no extra cost. Our standard products are fiber-safe and rinse out completely during extraction, so nothing is left behind for kids or pets to find.",
     },
+    {
+      question: "Can you clean the tile and grout in the kitchen on the same visit?",
+      answer:
+        "Yes. Tile and grout cleaning is available across Holly Springs and pairs well with a carpet appointment, since the truck is already set up outside. We apply an alkaline cleaner to the grout lines, agitate them with a rotary brush, and rinse with hot water under pressure so the soil comes out instead of moving around. Kitchens, mudrooms, and master baths in 12 Oaks and Holly Glen are the usual requests. Sealing is available afterward and quoted separately.",
+    },
+    {
+      question: "We are listing our house. Can you clean before the photos?",
+      answer:
+        "Yes, and it is one of the most common requests we get from Holly Springs sellers and their agents. Cleaned carpet photographs brighter and the traffic lanes upstairs stop showing in the listing. Book two or three days before the photographer so everything is fully dry and the pile has recovered. Realtors can send the form on a client's behalf, and we can coordinate a lockbox and leave a receipt for the buyer's file.",
+    },
+    {
+      question: "Will the same technician come back next time?",
+      answer:
+        "Usually, yes. We assign Holly Springs to a small group of technicians who work the south side of Wake County, so a repeat visit is normally the same person or a teammate who has read the notes. Your account keeps a record of the fiber in each room, the product preference, the gate or parking process, and which spots needed extra attention, so nothing has to be explained twice. Ask for a specific technician when you book and we do our best to match it.",
+    },
+    {
+      question: "Our HOA has rules about service vehicles. Is that a problem?",
+      answer:
+        "No. Most Holly Springs neighborhoods have an HOA, and we work inside their rules every day. Tell us the parking process or any visitor procedure when you book and the technician arrives ready. In townhome communities such as Morgan Park and Somerset we park so the hose run does not block a neighbor's space, and we can supply a certificate of insurance if the association asks for one. The van is in and out in a few hours.",
+    },
+    {
+      question: "How far ahead should I book, especially in spring?",
+      answer:
+        "Most weeks we can fit a Holly Springs appointment within a few days. The exception is late May and June, once the pollen has stopped falling and every family on the street wants it out of the upstairs carpet at the same time. Book a week or two ahead for that window, and for Saturdays and evenings any time of year. If you have a firm date, such as furniture delivery on a new build, send the form as soon as you know it.",
+    },
   ],
   ctaTitle: "Book a Holly Springs carpet cleaning this week",
   ctaDescription:

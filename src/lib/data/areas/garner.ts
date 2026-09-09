@@ -72,6 +72,31 @@ export const garner: AreaContent = {
       answer:
         "Yes. Surface stains come out with the standard clean. Odor that has reached the pad needs an enzyme treatment, which we quote as its own line item after checking the area. On older carpet we check the pad first and tell you honestly whether treatment will help.",
     },
+    {
+      question: "Can you clean the tile and grout in my kitchen while you are here?",
+      answer:
+        "Yes. Tile and grout cleaning is one of the most common add-ons in Garner, especially in the kitchens and baths of the older ranches off Timber Drive and around Vandora Springs, where the grout has gone dark after decades of mopping. We pre-treat the lines, scrub them, and rinse with a pressurized tile tool that captures the water. Sealing is available afterward to keep it clean longer. It is quoted by the area and confirmed on the walkthrough.",
+    },
+    {
+      question: "Do you do move-out cleanings for renters in Garner?",
+      answer:
+        "Yes. The apartments and townhomes near Downtown Garner and along Bryan Road usually require professional carpet cleaning at move-out, and rental houses in Adams Point and Eagle Ridge often do too. We schedule the day before the keys go back so the carpet is dry for the inspection and leave an itemized receipt with the address, rooms, and method that property managers accept. If the office wants it emailed directly, tell us when you book.",
+    },
+    {
+      question: "How should I get the house ready before you arrive?",
+      answer:
+        "Pick up shoes, toys, and small items from the floor and run the vacuum if you have time, though we do a dry pass of our own. Point out the spots that worry you on the walkthrough so they are treated first. We move sofas, chairs, and small tables and set them back on foam blocks. Beds and dressers stay in place. In a split-level, keep the stairs clear, since they are the first thing we clean and the last to dry.",
+    },
+    {
+      question: "Do you come out to Adams Point and the Cleveland community?",
+      answer:
+        "Yes. Adams Point, Eagle Ridge, McCullers, and the Cleveland area out toward the Johnston County line are regular stops, and the newer polyester carpet in those subdivisions responds well to the agitation and hot rinse we use for matted traffic lanes. We cover every neighborhood in the Garner zip code, from Downtown Garner and White Oak to Lake Benson, Heather Hills, and Auburn. If your address is on the edge of town, send it and we confirm.",
+    },
+    {
+      question: "Do you clean carpet for businesses along Timber Drive?",
+      answer:
+        "Yes. Commercial carpet cleaning is available for the offices, storefronts, churches, and medical suites along Timber Drive, around White Oak Crossing, and near Downtown Garner. We work after hours or on weekends so the space is dry before it opens, use low-moisture methods where a fast turnaround matters, and set up a recurring schedule for the entrances and hallways that take the most traffic. Send the form with the square footage and the hours you are closed, and a quote comes back the same day.",
+    },
   ],
   ctaTitle: "Book a Garner carpet cleaning this week",
   ctaDescription:

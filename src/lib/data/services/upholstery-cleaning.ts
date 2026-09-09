@@ -150,6 +150,21 @@ export const upholsteryCleaning: Service = {
       answer:
         "We clean upholstery throughout Raleigh, including North Raleigh and the neighborhoods inside the Beltline, plus Cary, Apex, Morrisville, Wake Forest, Garner, Knightdale, Holly Springs, Fuquay-Varina, Durham, and Clayton. Upholstery is often added to a carpet or rug appointment in the same visit, which keeps the trip efficient. If you are just outside those areas, send the form with your zip code and we will confirm.",
     },
+    {
+      question: "How long does it take to clean a sofa?",
+      answer:
+        "Plan on about an hour for a standard three-seat sofa and longer for a large sectional or a piece with loose cushions on both sides. That covers the fabric check, the dye test, a full vacuum of the cushions and crevices, pre-treatment, extraction, and setting up the air mover. Adding a couple of chairs or an ottoman to the same visit adds time but not a second trip. We give you a time estimate with the quote so you can plan your afternoon.",
+    },
+    {
+      question: "Do you clean outdoor cushions or car interiors?",
+      answer:
+        "Car interiors, no. Vehicle seats and carpet need different equipment and a different setup than home furniture, so we leave that to auto detailers. Outdoor cushions are case by case. Solution-dyed acrylic and polyester covers that zip off usually clean well with extraction, and we can do them on the same visit as the indoor furniture. Cushions with foam that has been soaked by rain and holds mildew are often past saving. Send a photo with the form and we will tell you.",
+    },
+    {
+      question: "Can you fix sun fading or worn spots on the fabric?",
+      answer:
+        "No. Fading from a sunny window and the shine or thinning on the front edge of a seat cushion are changes to the fiber itself, not soil, and cleaning cannot reverse them. What cleaning does is remove the body oil film that makes worn arms look darker than the rest, which often makes the wear far less noticeable. Rotating and flipping cushions and pulling the blinds during the afternoon slows both problems down between cleanings.",
+    },
   ],
   ctaTitle: "Get your sofa cleaned this week",
   ctaDescription:

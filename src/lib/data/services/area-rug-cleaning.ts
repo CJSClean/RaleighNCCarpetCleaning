@@ -150,6 +150,21 @@ export const areaRugCleaning: Service = {
       answer:
         "We pick up and deliver rugs throughout Raleigh, including North Raleigh and the neighborhoods inside the Beltline, plus Cary, Apex, Morrisville, Wake Forest, Garner, Knightdale, Holly Springs, Fuquay-Varina, Durham, and Clayton. In-home cleaning of synthetic rugs is available across the same area and is often added to a carpet appointment. If you are just outside those areas, send the form with your zip code and we will confirm.",
     },
+    {
+      question: "Do you clean the fringe?",
+      answer:
+        "Yes, on every pickup rug. Fringe is usually cotton, it is the part of the rug that grays first, and it needs to be cleaned by hand rather than run through the wash with the pile. After the immersion wash the fringe is worked separately, rinsed, and combed straight while it dries so it does not tangle or yellow. Fringe that is worn through or missing is a repair, not a cleaning, and we will point it out on the condition report at pickup.",
+    },
+    {
+      question: "Can you tell if my rug has moth damage, and can cleaning stop it?",
+      answer:
+        "Yes to both. Moth larvae eat wool, and they favor the dark, undisturbed parts of a rug, under a sofa or along a wall where the vacuum never reaches. The signs are bare patches where the pile is gone down to the foundation, sandy grit on the floor beneath the rug, and small webbing on the back. A full immersion wash removes the larvae and eggs. The damage already done needs reweaving, which we do not do, but we can point you to who does.",
+    },
+    {
+      question: "How often should a rug be cleaned?",
+      answer:
+        "For an everyday synthetic rug in an entry or family room, once a year, usually alongside the carpet. Wool and hand-knotted rugs should be washed every three to five years, sooner if there are pets or the rug sits by a door. Between washes, vacuum both sides a few times a year, since the grit that settles into the foundation does the real wear. A quick test is to lift a corner and drop it. If a puff of dust comes up, it is time.",
+    },
   ],
   ctaTitle: "Get your rug cleaned the right way",
   ctaDescription:

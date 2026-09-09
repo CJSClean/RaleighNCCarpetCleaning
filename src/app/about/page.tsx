@@ -6,11 +6,12 @@ import MapEmbed from "@/components/sections/MapEmbed";
 import TrustStrip from "@/components/sections/TrustStrip";
 import { Section, SectionHeading } from "@/components/sections/Section";
 import ServiceAreas from "@/components/sections/ServiceAreas";
+import FAQ from "@/components/sections/FAQ";
 import CTABand from "@/components/sections/CTABand";
 import { CheckIcon } from "@/components/ui/Icons";
 import { allServiceAreas } from "@/lib/data/locations";
 import { SITE_URL } from "@/lib/constants";
-import { generateAboutPageSchema, generateBreadcrumbSchema, SchemaScript } from "@/lib/schema";
+import { generateAboutPageSchema, generateBreadcrumbSchema, generateFAQSchema, SchemaScript } from "@/lib/schema";
 
 export const metadata: Metadata = {
   title: "About Raleigh NC Carpet Cleaning",
@@ -53,6 +54,54 @@ const promises = [
   "A coordinator you can actually reach, seven days a week",
 ];
 
+const faqs = [
+  {
+    question: "Who is Raleigh NC Carpet Cleaning, and are you actually local?",
+    answer:
+      "A locally operated carpet, upholstery, rug, tile, and pet odor cleaning company based in Raleigh. We are not a franchise and we do not subcontract, so the coordinator who answers your form and the technician who arrives at your door work for the same company. Our technicians start the day in Raleigh and work across Wake County, into Durham, and down to Clayton, cleaning the same streets every week.",
+  },
+  {
+    question: "Are you insured?",
+    answer:
+      "Yes. Every technician who enters your home is insured, and that coverage is in place on every visit, residential or commercial. If you are a property manager or facilities contact who needs documentation for your file, ask your coordinator and we will send it over before the appointment. We would rather answer the question up front than have you wonder about it while a hose is running through your hallway.",
+  },
+  {
+    question: "Who will actually be in my home?",
+    answer:
+      "One of our own technicians, trained on our published process. We do not send subcontractors or day labor. Your confirmation names the arrival window, and you receive a heads-up when the technician is on the way. The technician introduces themselves, walks the rooms with you, confirms the price, and walks the finished rooms with you before leaving. If you would like the same technician on a repeat visit, tell your coordinator and we will do our best.",
+  },
+  {
+    question: "What equipment do you use?",
+    answer:
+      "Truck-mounted hot water extraction units, not rental or portable machines, for nearly every carpet job. The unit stays in the van and runs heated water and strong vacuum through hoses into the house, which is what lets us rinse to the backing and recover the water immediately. We also carry hand tools for upholstery and stairs, air movers to speed drying, UV lights for locating pet spots, and a pressure tool for tile and grout.",
+  },
+  {
+    question: "How are your technicians trained?",
+    answer:
+      "Every technician is trained on fiber identification and on the eight-step process published on our site, in that order. They learn to tell nylon from polyester, olefin, and wool on the walkthrough, and to adjust heat, pressure, and chemistry to match. New technicians work alongside experienced ones before running their own jobs, and every finished room is walked with the customer. If a technician is unsure about a fiber or a stain, the rule is to test in a hidden spot first and ask, not guess.",
+  },
+  {
+    question: "What areas do you serve?",
+    answer:
+      "All of Raleigh, including North Raleigh, Midtown, downtown, and the neighborhoods inside and outside the Beltline, plus Cary, Apex, Morrisville, Wake Forest, Garner, Knightdale, Holly Springs, and Fuquay-Varina in Wake County. We also cover Durham and Clayton. Each area has its own page with local notes and neighborhoods. If your address sits just beyond those towns, send the zip code with your form and the coordinator will confirm whether a technician can reach you.",
+  },
+  {
+    question: "What is the seven-day satisfaction guarantee?",
+    answer:
+      "If a spot wicks back, a traffic lane still looks dull, or any area does not meet the standard within seven days of the cleaning, tell us and we come back to re-treat it at no charge. There is no form to fill out and no argument to have. The guarantee covers the work we did, not damage the technician pointed out on the walkthrough, such as bleach spots or worn pile, which no cleaning can reverse.",
+  },
+  {
+    question: "Do you do commercial work?",
+    answer:
+      "Yes. Offices, medical and dental suites, churches, retail floors, and apartment common areas across the Triangle, usually after hours so the carpet is dry before anyone arrives. We can set up recurring monthly or quarterly programs with direct invoicing for facilities managers and property companies. The process is the same as residential, with the schedule and the traffic-lane focus adjusted to the building. The commercial carpet cleaning page has the details.",
+  },
+  {
+    question: "How do I book?",
+    answer:
+      "Send the form on the contact page with the rooms or pieces you want cleaned, your zip code, and any pets or problem spots. A coordinator replies with an upfront price and open times, usually the same day, and you pick the slot that fits. You can also email us directly. Most first appointments are placed within the same week, and evenings and Saturdays are available.",
+  },
+];
+
 export default function AboutPage() {
   return (
     <>
@@ -63,6 +112,7 @@ export default function AboutPage() {
             { name: "Home", url: "/" },
             { name: "About", url: "/about" },
           ]),
+          generateFAQSchema(faqs),
         ]}
       />
       <PageShell>
@@ -171,6 +221,8 @@ export default function AboutPage() {
         <MapEmbed query="Raleigh, NC" title="Based in Raleigh, working across the Triangle" />
 
         <ServiceAreas title="Where our technicians work" areas={allServiceAreas} />
+
+        <FAQ title="Questions about Raleigh NC Carpet Cleaning" items={faqs} tone="canvas" />
 
         <CTABand
           title="Want to see the difference for yourself?"

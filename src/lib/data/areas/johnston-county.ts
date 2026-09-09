@@ -81,6 +81,31 @@ export const johnstonCounty: CountyContent = {
       answer:
         "In most cases, yes. Clay is an iron-based soil that bonds to the fiber, so it needs an acid-side pre-treatment and agitation before extraction. Clay that has been ground in for years may leave a faint tint, and the technician will tell you on the walkthrough what to expect.",
     },
+    {
+      question: "Is there a travel fee for Benson, Four Oaks, or Kenly?",
+      answer:
+        "No. There is no travel fee anywhere inside Johnston County, and the price structure in Kenly is the same as in Clayton. What changes for the outer towns is how we route the day. We group Smithfield, Selma, Four Oaks, and Benson stops together so one technician covers them in a single trip, which means the date may be a few days out rather than tomorrow. Give us a little flexibility and we fit you into the next run.",
+    },
+    {
+      question: "I own rentals in Clayton, Smithfield, and Selma. Can you handle all of them?",
+      answer:
+        "Yes. Landlords with houses in more than one Johnston County town get one account, one standing rate, and one invoice, no matter which town the unit sits in. We coordinate lockbox access, clean between tenants once the furniture is out, treat any pet areas, and send an itemized receipt for each address. Month-end turnovers are the busiest stretch, so share the lease end dates early and we hold slots on the route for the outer towns.",
+    },
+    {
+      question: "Can you pick up an area rug from anywhere in the county?",
+      answer:
+        "Yes. Area rug pickup covers all of Johnston County, from Flowers Plantation to Princeton. Rugs that have taken years of red clay at a front door, wool pieces, and anything with a fringe usually do better with a full wash and controlled drying than with in-place cleaning on a hardwood floor. The technician inspects the rug, tests the dyes, and tells you which approach fits. Pickup rugs are quoted per rug and come back dry, rolled, and ready to lay down.",
+    },
+    {
+      question: "When is the best time of year to clean carpet in Johnston County?",
+      answer:
+        "Late May, once the pollen has finished falling, and again in the fall before the house closes up for winter. A wet spring makes it worse here than in Wake County because damp red clay travels farther on shoes and paws, so the entries are usually ready for a cleaning by the time the pollen clears. Those late spring weeks are our busiest, along with the last week of every month, so send the form a week or two ahead for either.",
+    },
+    {
+      question: "We are closing on a new build in Archer Lodge. Can you clean before we move in?",
+      answer:
+        "Yes, and the day between closing and the moving truck is the best time to do it. New houses in Archer Lodge, Flowers Plantation, and the subdivisions around Cleveland hold drywall dust in the pad that the builder's final vacuum never reaches, and the lawn tracks in red clay for the first year. With the house empty, the technician can dry vacuum every room, pre-treat the entries, and extract the whole upstairs in one pass. Send the closing date and we hold the slot.",
+    },
   ],
   ctaTitle: "Book a cleaning anywhere in Johnston County",
   ctaDescription:

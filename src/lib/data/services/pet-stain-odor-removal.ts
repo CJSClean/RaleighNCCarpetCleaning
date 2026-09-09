@@ -149,6 +149,21 @@ export const petStainOdorRemoval: Service = {
       answer:
         "We treat pet stains and odor throughout Raleigh, including North Raleigh and the neighborhoods inside the Beltline, plus Cary, Apex, Morrisville, Wake Forest, Garner, Knightdale, Holly Springs, Fuquay-Varina, Durham, and Clayton. The same treatment is available for upholstery and for area rugs through pickup service. If you are just outside those areas, send the form with your zip code and we will confirm.",
     },
+    {
+      question: "Will the smell be gone the same day?",
+      answer:
+        "Mostly, yes, with one caveat. Enzyme treatment keeps working for a day or two after we leave, and the carpet is damp during that time, so you may notice a faint odor while it dries that fades as the room airs out. Once the carpet is dry the treated spots should smell like nothing. The true test is the next humid stretch. If the odor comes back within seven days, contact us and we return and re-treat under the seven-day satisfaction guarantee.",
+    },
+    {
+      question: "I already used an enzyme spray from the store. Why did the smell come back?",
+      answer:
+        "Store-bought enzymes can work on a fresh surface accident, but two things usually go wrong. The spray never reaches the pad, where most of the urine ended up, so the crystals underneath keep reactivating. And the enzyme needs to stay wet and undisturbed for hours to digest the residue, which rarely happens with a light misting. Our treatment uses a stronger enzyme, the right dwell time, and sub-surface injection and extraction, then rinses everything out so nothing is left to feed odor.",
+    },
+    {
+      question: "What should I do right after an accident, before you arrive?",
+      answer:
+        "Blot, do not scrub. Press a folded white towel into the spot and stand on it to pull up as much liquid as you can, then repeat with a dry towel. Skip the steam cleaner, since heat sets urine, and skip anything with bleach or ammonia, which can bleach the dye and confuse the dog into marking the same spot again. Cover the area with a dry towel so no one steps on it. Then send the form and tell us how many spots.",
+    },
   ],
   ctaTitle: "Get the pet smell out for good",
   ctaDescription:

@@ -83,6 +83,31 @@ export const wakeCounty: CountyContent = {
       answer:
         "Yes. Offices, medical suites, churches, and retail spaces across the county, usually after hours so the carpet is dry before opening. See our commercial carpet cleaning page for details.",
     },
+    {
+      question: "Is there a travel fee for addresses out toward Zebulon or Wendell?",
+      answer:
+        "No. There is no travel fee anywhere inside Wake County, and no minimum that changes by town. Zebulon, Wendell, Rolesville, Willow Spring, and the unincorporated land between them are on the same route as Cary and North Raleigh. The only practical difference on a rural lot is the driveway. If the house sits well back from the road, mention it on the form so the technician brings enough hose to reach the far bedrooms without moving the van.",
+    },
+    {
+      question: "Do you pick up area rugs anywhere in the county?",
+      answer:
+        "Yes. Area rug pickup runs across all of Wake County. Some rugs are best cleaned in place on a protected floor, and some, especially wool, silk blends, and anything with a fringe or a history of pet accidents, do better with a full wash and controlled drying away from the house. The technician looks at the rug, tests the dyes, and recommends one or the other. Pickup rugs are quoted per rug, returned dry and rolled, and the seven-day satisfaction guarantee applies.",
+    },
+    {
+      question: "I own a few rental houses in different towns. Can you handle them under one account?",
+      answer:
+        "Yes. Landlords with properties spread across Wake County, say one in Garner, one in Wake Forest, and one in Apex, get a single point of contact, one standing rate, and one invoice. We coordinate lockbox access with the outgoing tenant or your manager, clean between leases, and send an itemized receipt for each address. The last week of the month is the busiest for turnovers, so give us the lease end dates as soon as you have them and we hold the slots.",
+    },
+    {
+      question: "Do you clean carpet in churches, schools, and daycares?",
+      answer:
+        "Yes. Churches across the county are cleaned between services, usually on a weekday, so the sanctuary and classrooms are dry by Sunday. Schools and daycares are scheduled over a break or after closing, with the fragrance-free line used on request in rooms where children sit on the floor. We move what can be moved, clean around fixed pews and cubbies, and provide a certificate of insurance and direct invoicing to the office. Recurring schedules are available.",
+    },
+    {
+      question: "Do you offer upholstery, tile, and pet treatment everywhere in the county, or only carpet?",
+      answer:
+        "Every service, everywhere. Upholstery cleaning, area rug cleaning, pet stain and odor removal, tile and grout cleaning, and commercial carpet cleaning are all available at any Wake County address, from a bungalow in Downtown Apex to a new build in Holly Springs. The same technician handles them on the same visit, and each piece or area is quoted separately on the walkthrough so the total is clear before the work starts. Bundling them saves a second appointment.",
+    },
   ],
   ctaTitle: "Book a cleaning anywhere in Wake County",
   ctaDescription:

@@ -149,6 +149,21 @@ export const carpetCleaning: Service = {
       answer:
         "All of Raleigh, including North Raleigh, Midtown, downtown, and the neighborhoods inside and outside the Beltline, plus Cary, Apex, Morrisville, Wake Forest, Garner, Knightdale, Holly Springs, Fuquay-Varina, Durham, and Clayton. Each area has its own page with local notes. If you are just outside those boundaries, send your zip code and we will confirm.",
     },
+    {
+      question: "Is the fiber protector worth adding?",
+      answer:
+        "For most households, yes, especially with kids, pets, or light-colored carpet. Cleaning removes the factory protector along with the soil, and a fresh application restores it. Protected fiber resists spills for the first few minutes so you can blot them up, and dry soil releases more easily on the next vacuum and the next cleaning. It does not make carpet stain-proof. It is quoted as a separate line item on the walkthrough and applied to the rooms you choose.",
+    },
+    {
+      question: "Do you clean carpeted stairs?",
+      answer:
+        "Yes. Stairs are cleaned with a hand tool so each tread and riser gets the same pre-spray, agitation, and rinse as the rooms. The nosing of each step is where the wear shows first, and it gets extra attention. Stairs are quoted as their own line item because they take longer per square foot than an open room. Tell us how many flights and whether there are landings when you send the form so the quote is accurate.",
+    },
+    {
+      question: "Is hot water extraction safe for wool carpet?",
+      answer:
+        "Yes, when the process is adjusted for it. Wool is cleaned at a lower temperature with a neutral pH pre-spray, less moisture, and a faster dry, since high heat and alkaline cleaners can cause browning or felting. We see a lot of wool and wool blends in older homes inside the Beltline, and the technician confirms the fiber on the walkthrough with a fiber test if the label is gone. If you know your carpet is wool, mention it when you book.",
+    },
   ],
   ctaTitle: "Get your carpet cleaned this week",
   ctaDescription:

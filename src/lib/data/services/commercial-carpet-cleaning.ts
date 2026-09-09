@@ -149,6 +149,21 @@ export const commercialCarpetCleaning: Service = {
       answer:
         "All of Raleigh, including downtown, North Hills, and North Raleigh, plus RTP and the office parks in Cary, Apex, Morrisville, Wake Forest, Garner, Knightdale, Holly Springs, Fuquay-Varina, Durham, and Clayton. Multi-site accounts across several of these areas are handled by one scheduler. If a property is just outside those boundaries, send the address with the form and we will confirm.",
     },
+    {
+      question: "Is there a minimum job size?",
+      answer:
+        "Yes, a modest one. Commercial visits are scheduled after hours with a crew and a truck, so there is a minimum charge that covers the trip, but a single suite or a small storefront clears it easily. If your space is small, the most efficient approach is often to bundle it with the upholstered chairs or an adjoining tenant's suite on the same night. Send the address and approximate square footage and we will tell you where the job lands before you commit to a walkthrough.",
+    },
+    {
+      question: "Do you handle apartment turnovers for property managers?",
+      answer:
+        "Yes. Turnover units are cleaned between move-out and the next lease start, usually with hot water extraction since the carpet has to be fully reset for a new tenant. Give us the unit numbers and the date the maintenance walk is done and we fit them into the schedule, with several units on the same day when the community has them ready. Pet treatment is quoted per unit after a UV check. Invoices are itemized by unit, and net-30 terms are available for management accounts.",
+    },
+    {
+      question: "How do you handle desks and office furniture?",
+      answer:
+        "Rolling chairs, trash cans, small tables, and light items are moved and put back. Desks, filing cabinets, loaded shelving, and server racks stay where they are, and we clean around them with a hand wand along the edges. If you want the carpet under a bank of desks cleaned, have your staff clear it before we arrive and we will include it. Cubicle walls are not moved. Fabric partitions and task chairs can be cleaned as a separate line item on the same visit.",
+    },
   ],
   ctaTitle: "Get a commercial quote and a walkthrough this week",
   ctaDescription:

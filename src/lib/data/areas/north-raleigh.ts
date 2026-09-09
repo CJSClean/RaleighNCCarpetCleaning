@@ -72,6 +72,31 @@ export const northRaleigh: AreaContent = {
       answer:
         "Yes. Most leases around North Hills, Midtown, and Brier Creek require professional carpet cleaning at move-out. We schedule the day before the keys go back and leave an itemized receipt your property manager will accept.",
     },
+    {
+      question: "Can you clean the sectional and a wool rug on the same visit?",
+      answer:
+        "Yes. Upholstery cleaning and area rug cleaning are both available across North Raleigh and are usually done on the same visit as the carpet. Tell us the fabric and the rug's fiber when you send the form. Synthetic sofas get hot water extraction, and wool rugs are cleaned cooler at a neutral pH after a test in a hidden corner. Both are quoted as their own line items and confirmed on the walkthrough before we start.",
+    },
+    {
+      question: "How far in advance should I book in North Raleigh?",
+      answer:
+        "A few days is usually enough for a weekday morning. Evening and Saturday slots fill first, so give us a week when you can, and more than that in March and April when pollen season sends everyone to the form at once. If you need it sooner, send the form anyway. Cancellations open up along Six Forks and Falls of Neuse most weeks and we offer those times to whoever is waiting.",
+    },
+    {
+      question: "When is the best time to clean carpet after pollen season?",
+      answer:
+        "Late May or early June, once the oaks and pines along Falls of Neuse and around Falls Lake have finished. Cleaning earlier means a second coat of yellow settles into the pile within a week. If allergies are the issue, we can do the bedrooms in April and the rest of the house after the trees are done. Either way, the pre-spray and hot rinse pull pollen from the base of the pile, not just the surface.",
+    },
+    {
+      question: "Do you move the furniture, or should I clear the rooms first?",
+      answer:
+        "We move sofas, chairs, and small tables, clean under them, and set them back on foam blocks or tabs so the legs do not wick moisture. Beds, dressers, entertainment centers, and anything with electronics stay where they are and we clean around them. Before we arrive in a North Ridge or Stonehenge two-story, pick up toys, shoes, and small items from the floor, and give the rooms a quick vacuum if you can. That is all the preparation you need.",
+    },
+    {
+      question: "Do you work with realtors and property managers in North Raleigh?",
+      answer:
+        "Yes. Listing agents around North Hills and Midtown book us before photos, and property managers with rentals in Brier Creek and Wakefield use us for turnovers between tenants. We can work from a lockbox code, send the itemized receipt to the office instead of the door, and keep the same product and process for every unit in a portfolio. Contact us with the address and the turnover date and we hold a slot around it.",
+    },
   ],
   ctaTitle: "Book a North Raleigh carpet cleaning this week",
   ctaDescription:

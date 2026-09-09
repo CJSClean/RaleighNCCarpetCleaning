@@ -72,6 +72,31 @@ export const wakeForest: AreaContent = {
       answer:
         "Usually, yes. Surface stains come out with the standard clean. Odor that has reached the pad needs an enzyme treatment, which we quote as its own line item after checking the area on the walkthrough. If the pad is saturated, we tell you honestly before you pay for treatment.",
     },
+    {
+      question: "Will I get the same technician each time in Wake Forest?",
+      answer:
+        "When the schedule allows, yes. Your account keeps notes from the first visit, including which rooms have polyester and which have wool, the product preference, where the dog sleeps, and how the hose was routed to the basement or the third floor, so the next visit picks up where the last one ended. Families in Heritage and Traditions who clean every spring usually see the same face. Mention a preference in the form and we plan around it.",
+    },
+    {
+      question: "Can you clean a house before it goes on the market?",
+      answer:
+        "Yes. Listing agents in Wake Forest book us before photos, and a fresh extraction is the fastest way to make a lived-in bonus room and stairs look ready. We can work from a lockbox, schedule around the stager and the photographer, and send the itemized receipt to the agent. For buyers, the same service works the day before move-in, after the seller is out and before the furniture arrives, when every room is empty and drying is quick.",
+    },
+    {
+      question: "What time of year should I clean after the pollen?",
+      answer:
+        "Late May or early June, after the pines around Falls Lake and along Capital Boulevard have finished. Wake Forest gets a heavy coat from March through May, and carpet cleaned in the middle of it turns yellow again within a week. If allergies are the concern, do the bedrooms first and the main level once the trees are done. The pre-spray and hot rinse pull pollen from the base of the pile, where vacuuming does not reach.",
+    },
+    {
+      question: "Heritage and Traditions have HOA rules on work hours and parking. Do you follow them?",
+      answer:
+        "Yes. Most of the larger Wake Forest communities, including Heritage, Traditions, Wakefield Plantation, and Hasentree, set hours for contractors and rules on where a truck can park. Tell us what applies when you book and we schedule inside those hours and keep the truck in your driveway rather than on the street. For the townhomes near Downtown Wake Forest and along Rolesville Road, we plan the hose run so it does not cross a neighbor's entry. A certificate of insurance is available on request.",
+    },
+    {
+      question: "Do you clean upholstery and area rugs in Wake Forest, or just carpet?",
+      answer:
+        "Both, and usually on the same visit. Sectionals, recliners, and dining chairs are cleaned with an upholstery tool after a fabric test, and area rugs are cleaned in place if they are synthetic or taken up and cleaned off site if they are wool or hand-knotted. Many Wake Forest families do the family room sofa and the rug under it while the carpet is being done upstairs. Each piece is quoted on its own and confirmed on the walkthrough.",
+    },
   ],
   ctaTitle: "Book a Wake Forest carpet cleaning this week",
   ctaDescription:

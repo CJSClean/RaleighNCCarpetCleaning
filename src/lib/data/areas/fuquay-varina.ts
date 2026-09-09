@@ -72,6 +72,31 @@ export const fuquayVarina: AreaContent = {
       answer:
         "Usually four to eight hours. Summer humidity in southern Wake pushes that toward the longer end, so we place air movers before we leave and recommend running the air conditioning. Keep the dogs off until it is dry to the touch.",
     },
+    {
+      question: "Do you come out to Willow Spring and the addresses past the town limits?",
+      answer:
+        "Yes. Willow Spring, Kennebec, Wake Chapel, and the unincorporated stretch toward the Harnett County line are all part of our Fuquay-Varina route, and there is no travel charge for any of them. Longer driveways are the only difference. Tell us on the form if the house sits well back from the road or the drive is gravel, and the technician brings enough hose and plans the van placement so the front door and the back bedrooms are both in reach.",
+    },
+    {
+      question: "Can you take a wool rug away for cleaning instead of doing it in the house?",
+      answer:
+        "Yes. Area rug pickup is available anywhere in Fuquay-Varina. Some rugs, especially older wool pieces from the houses near Downtown Fuquay and Varina, do better with a full wash, controlled drying, and a fringe cleaning that cannot be done on a hardwood floor. The technician looks at the rug on the walkthrough, tests the dyes, and tells you whether in-place cleaning or pickup is the better choice. Pickup rugs are quoted per rug and returned rolled and dry.",
+    },
+    {
+      question: "Do you clean carpet for shops and offices in the two downtowns?",
+      answer:
+        "Yes. Commercial carpet cleaning covers the storefronts in Downtown Fuquay and Varina and the offices and medical suites along Judd Parkway. Most commercial work is done after closing or early in the morning so the carpet is dry before the first customer comes through the door. We set up a recurring schedule if you want one, invoice the business directly, and provide a certificate of insurance when a landlord requires it.",
+    },
+    {
+      question: "How early in the morning can you start?",
+      answer:
+        "Early. A good share of our Fuquay-Varina customers keep a farm or shift schedule, so the first slot of the day starts when it works for you rather than at a fixed hour. Tell us when the house is empty or when you want it finished, and we plan around it. Midday slots suit anyone home during the day, and evenings and Saturdays are held for households commuting up US-401 or NC-55. Book those a week ahead when you can.",
+    },
+    {
+      question: "Do you handle move-out cleanings for rentals and provide a receipt?",
+      answer:
+        "Yes. Rentals near Downtown Fuquay, the duplexes in Hilltop, and the single-family homes leased out in South Lakes and Sunset Lake all come through our schedule at the end of the month. We clean once the furniture is out, treat any pet areas the tenant reports, and leave an itemized receipt that lists the rooms and the method, which landlords and property managers accept. Managers with several units can set up direct invoicing so the tenant does not have to pay on site.",
+    },
   ],
   ctaTitle: "Book a Fuquay-Varina carpet cleaning this week",
   ctaDescription:

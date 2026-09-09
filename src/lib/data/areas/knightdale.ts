@@ -72,6 +72,31 @@ export const knightdale: AreaContent = {
       answer:
         "Yes. Stairs are the hardest-worked carpet in most Knightdale townhomes and we clean them with a dedicated stair tool. They are quoted as a separate line item so the price is clear before we start.",
     },
+    {
+      question: "Can you clean the sectional and the playroom rug while you are here?",
+      answer:
+        "Yes. Upholstery cleaning and area rug cleaning are available on the same visit as the carpet, and most Knightdale customers bundle them. We check the fabric tag and the rug fiber on the walkthrough, test a hidden corner for colorfastness, and quote each piece separately so the total is clear before we start. A sectional that has survived two toddlers or a nursery glider gets the gentlest chemistry we carry, and the fragrance-free line is available on request.",
+    },
+    {
+      question: "I am moving out of a rental in Knightdale. Do you provide a receipt for the landlord?",
+      answer:
+        "Yes. Most leases in Knightdale Station and the newer townhome communities require professional carpet cleaning at move-out, and we provide an itemized receipt that shows the date, the rooms cleaned, and the method. Property managers accept it. Book the cleaning for the day after the furniture is out so the technician can reach every traffic lane, and tell us if a lockbox or a leasing office holds the key.",
+    },
+    {
+      question: "Do you offer evening or Saturday appointments in Knightdale?",
+      answer:
+        "Yes. Evening slots begin after the US-64 commute and Saturdays are open every week, because most Knightdale households are empty during the day. A typical three-bedroom takes two to three hours, so an evening start still finishes at a reasonable time. Weekday mornings usually have openings within a few days. Evenings and Saturdays fill about a week ahead, and late spring after pollen season fills faster, so send the form early for those.",
+    },
+    {
+      question: "Do you move furniture before cleaning?",
+      answer:
+        "We move the lighter pieces, sofas, chairs, end tables, and clean under them, then set them back on foam blocks or tabs so the legs stay dry and nothing wicks into the carpet. Beds, dressers, entertainment centers, and anything holding electronics stay in place and we clean around them. If you want the carpet under a heavy piece done, empty it before we arrive and we will work with you on the walkthrough to move it safely.",
+    },
+    {
+      question: "When should I schedule around pollen season?",
+      answer:
+        "Wait until the pine and oak pollen stops falling, which in Knightdale is usually the middle of May. Cleaning in April removes what is already in the carpet, but a fresh coat arrives on every shoe and dog paw the next day. Late May and June are the ideal window, and they are also our busiest weeks, so book a week or two ahead. If allergies are bad now, a spring clean followed by a fall clean is a good pattern.",
+    },
   ],
   ctaTitle: "Book a Knightdale carpet cleaning this week",
   ctaDescription:

@@ -71,6 +71,31 @@ export const cary: AreaContent = {
       answer:
         "We carry a fragrance-free, plant-based line and will use it exclusively on request at no extra cost. Our standard products are fiber-safe and rinse out completely during extraction.",
     },
+    {
+      question: "Can you pick up an area rug in Cary and clean it off site?",
+      answer:
+        "Yes. Area rug cleaning is available two ways. Synthetic rugs in good shape can be cleaned in place on the same visit as the carpet. Wool, viscose, and hand-knotted rugs are picked up from your home in Preston, Lochmere, or anywhere else in Cary, cleaned off site where they can be dusted, washed, and dried flat, and brought back. Tell us the size and fiber when you send the form and we quote it as its own line item.",
+    },
+    {
+      question: "My Cary lease requires professional carpet cleaning at move-out. Can you help?",
+      answer:
+        "Yes. Most leases in Weston, Regency Park, and the apartments around Downtown Cary require it, and move-out cleanings are a regular part of our week. We schedule the day before you return the keys so the carpet is dry for the inspection, and we leave an itemized receipt listing the rooms, the stairs, and the method used. Leasing offices in Cary accept it. If the property manager needs a certificate of insurance, ask and we send it ahead.",
+    },
+    {
+      question: "Do you come out to Preston and Lochmere, or only central Cary?",
+      answer:
+        "Both, along with every other neighborhood in town. Preston, MacGregor Downs, and Lochmere are some of our most regular stops, and the larger homes there usually mean a longer hose run to an upstairs bonus room, which is routine for us. We also cover Kildaire Farm, Carpenter Village, Stone Creek, Parkway, and the newer communities in Amberly and Cary Park. If you are unsure whether your street counts as Cary, send the address and we confirm.",
+    },
+    {
+      question: "What should I do before the technician arrives?",
+      answer:
+        "Not much. Pick up toys, shoes, and anything small from the floor, and run the vacuum if you have time, though we do a dry pass ourselves. Point out the spots you are worried about on the walkthrough so they are treated before the main pass. We move sofas, chairs, and small tables and put them back on blocks. Beds and dressers stay put. If the dog is anxious around equipment, a closed bedroom or the backyard is easiest for everyone.",
+    },
+    {
+      question: "Will the same technician come back next time?",
+      answer:
+        "Whenever the schedule allows, yes. Your account keeps the notes from the first visit, including the fiber in each room, the product preference, where the pet spots were, and how you like the hose routed through a townhome entry, so the next visit starts where the last one ended. Many Cary families book the same technician every spring after pollen season. If you have a preference, mention it in the form and we plan around it.",
+    },
   ],
   ctaTitle: "Book a Cary carpet cleaning this week",
   ctaDescription:

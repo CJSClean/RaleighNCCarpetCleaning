@@ -4,11 +4,12 @@ import PageShell from "@/components/layout/PageShell";
 import Hero from "@/components/sections/Hero";
 import TrustStrip from "@/components/sections/TrustStrip";
 import { Section, SectionHeading } from "@/components/sections/Section";
+import FAQ from "@/components/sections/FAQ";
 import CTABand from "@/components/sections/CTABand";
 import { CheckIcon } from "@/components/ui/Icons";
 import { ButtonLink } from "@/components/ui/Button";
 import { SITE_CONFIG, SITE_URL } from "@/lib/constants";
-import { generateBreadcrumbSchema, SchemaScript } from "@/lib/schema";
+import { generateBreadcrumbSchema, generateFAQSchema, SchemaScript } from "@/lib/schema";
 
 const PATH = "/preparing-for-your-cleaning";
 
@@ -71,14 +72,65 @@ const cancellation = [
   { notice: "Same-day cancellation or lockout", fee: "May be billed for the appointment." },
 ];
 
+const faqs = [
+  {
+    question: "Do I need to vacuum before you arrive?",
+    answer:
+      "No. The technician vacuums every area with a commercial machine before pre-treatment, and that step is part of every job, not an extra. Dry soil is far easier to remove before the carpet is wet, which is why we never skip it. If you enjoy running your own vacuum first, go ahead, it does no harm. What actually helps is picking up small items so the technician's vacuum and wand can reach the whole floor.",
+  },
+  {
+    question: "Should I move furniture before the cleaning?",
+    answer:
+      "Only the heavy pieces you want cleaned under. The technician moves sofas, chairs, and small tables and sets them back on foam blocks. Beds, dressers, china cabinets, pianos, entertainment centers, and anything with electronics on it stay where they are, and we clean around them. If you want the carpet under one of those cleaned, move it before we arrive and tell your coordinator so the quote reflects the extra area.",
+  },
+  {
+    question: "What should I do with my pets during the visit?",
+    answer:
+      "Keep dogs and cats in a closed room, a crate, or with you for the whole visit. The front door stays open for the hose, the truck-mounted unit is loud, and a nervous animal can slip out or get underfoot. Tell your coordinator or the technician about any pet that must never go outside. If you are booking pet treatment, note where the accidents happened so the technician can check those spots under UV light.",
+  },
+  {
+    question: "Where should the van park, and how far can the hose run?",
+    answer:
+      "As close to the door we will use as possible, ideally in the driveway or at the curb directly out front. Hoses run from the van into the house and cover roughly 100 feet comfortably, with longer runs possible on request. For townhomes and apartments with assigned parking, a gate, or an elevator, send your coordinator a note before the visit so the technician arrives with the right length of hose.",
+  },
+  {
+    question: "Do you need water or power from the house?",
+    answer:
+      "Usually not. The truck-mounted unit carries its own fresh water and heats it in the van, and the recovered water is held in a tank on the truck, not dumped on your property. On a long job or a very large home the technician may ask to refill from an outside spigot. We plug in air movers to speed drying, which use a standard outlet. Nothing else from the house is required.",
+  },
+  {
+    question: "How long until I can walk on the carpet and put furniture back?",
+    answer:
+      "Carpet is usually dry to the touch in four to eight hours, depending on fiber, humidity, and how much soil came out. Light traffic in clean socks is fine once it feels dry. Wait until the next day, a full 24 hours, before setting furniture back on the carpet without blocks, since the base of the pile dries last. Rugs and upholstery follow their own times, and the technician tells you before leaving.",
+  },
+  {
+    question: "What are the foam blocks and tabs under the furniture legs for?",
+    answer:
+      "They lift wood and metal legs off the damp carpet so stain, finish, or rust cannot transfer into the fibers and leave a mark. Leave them in place for 24 hours, then remove them once the carpet is fully dry. If a block gets kicked out early, slide it back under. You can throw them away afterward or keep them for the next cleaning. They are included in every job.",
+  },
+  {
+    question: "Can I stay home during the cleaning?",
+    answer:
+      "Yes, and most customers do. You need to be there for the walkthrough at the start, when the price is confirmed and spots are pointed out, and we like to walk the finished rooms with you at the end. In between, you can work in another room, keep the kids and pets in a closed space, or step out. If you cannot be present at all, a key, lockbox, or door code arrangement is fine, just tell your coordinator.",
+  },
+  {
+    question: "How do I reschedule or cancel?",
+    answer:
+      "Send the form on the contact page or email us as early as you can, and include the date of the appointment. With more than 24 hours' notice we move or cancel it at no charge. Inside 24 hours a rescheduling fee may apply, and a same-day cancellation or a lockout, where the technician arrives and cannot get in, may be billed. If weather or illness comes up, tell us right away and we will do what we can.",
+  },
+];
+
 export default function PreparingPage() {
   return (
     <>
       <SchemaScript
-        schema={generateBreadcrumbSchema([
-          { name: "Home", url: "/" },
-          { name: "Preparing for Your Cleaning", url: PATH },
-        ])}
+        schema={[
+          generateBreadcrumbSchema([
+            { name: "Home", url: "/" },
+            { name: "Preparing for Your Cleaning", url: PATH },
+          ]),
+          generateFAQSchema(faqs),
+        ]}
       />
       <PageShell>
         <Hero
@@ -196,6 +248,12 @@ export default function PreparingPage() {
             <ButtonLink href="/our-process" variant="outline">See our process</ButtonLink>
           </div>
         </Section>
+
+        <FAQ
+          title="Questions about cleaning day"
+          intro="What to expect before the van arrives, during the visit, and while the carpet dries."
+          items={faqs}
+        />
 
         <CTABand
           title="Ready to book your Raleigh carpet cleaning?"

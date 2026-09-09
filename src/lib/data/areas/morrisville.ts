@@ -72,6 +72,31 @@ export const morrisville: AreaContent = {
       answer:
         "Usually four to eight hours. Summer humidity pushes it toward the longer end, which is why we place air movers and recommend running the air conditioning. Morning appointments are typically dry by the time you are home from RTP.",
     },
+    {
+      question: "Do you work with leasing offices and property managers in Morrisville?",
+      answer:
+        "Yes, and with the turnover around Town Center, Weston Estates, and Breckenridge it is a large share of what we do here. We can work from a lockbox or the leasing office key, clean between tenants on a set schedule, and send the itemized receipt to the office rather than leaving it in the unit. The same product and process is used for every unit so the results are consistent across a property. Contact us with the address list and the turnover dates.",
+    },
+    {
+      question: "Can you clean the sofa and dining chairs as well as the carpet?",
+      answer:
+        "Yes. Upholstery cleaning is available across Morrisville and is usually done on the same visit. Synthetic sofas and chairs get hot water extraction with an upholstery tool, and fabrics that need it are cleaned with a lower-moisture method after a test in a hidden spot. Cooking oils carried on the air settle on the fabric in front of the kitchen in many Kitts Creek and Savannah townhomes, and the pre-spray is chosen for that. Each piece is quoted separately and confirmed on the walkthrough.",
+    },
+    {
+      question: "How much notice do you need for a Morrisville appointment?",
+      answer:
+        "A few days is usually enough for a weekday. Early morning, evening, and Saturday slots fill first because so many people here work RTP hours or travel during the week, so give us a week for those. Lease deadlines are the exception. If the keys go back in two days, send the form anyway and tell us the date. Openings come up along Airport Boulevard most weeks and move-outs get first call on them.",
+    },
+    {
+      question: "Is Twin Lakes or Providence Place in your service area?",
+      answer:
+        "Yes. Both are regular stops, along with Kitts Creek, Savannah, Breckenridge, Park West Village, Cedar Fork, and the homes off Church Street and Carpenter Fire Station Road. Morrisville is compact enough that we cover the entire zip code, and the technician knows which communities need an elevator booked or a hose run planned through a shared entry. If your address sits on the Cary or Durham line, send it and we confirm.",
+    },
+    {
+      question: "Do I need to move furniture in my townhome before you come?",
+      answer:
+        "No. We move sofas, chairs, and small tables, clean under them, and set them back on foam blocks so the legs stay dry. Beds, dressers, desks, and anything with electronics stay in place and we clean around them. In the smaller Breckenridge and Providence Place floor plans, clearing shoes and small items from the stairs and hallway is the most useful thing you can do. If you keep a shoes-off home, say so and the technician wears shoe covers.",
+    },
   ],
   ctaTitle: "Book a Morrisville carpet cleaning this week",
   ctaDescription:
