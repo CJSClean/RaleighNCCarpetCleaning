@@ -1,20 +1,23 @@
 @import "tailwindcss";
 
 @theme inline {
-  /* Oak & Clay palette: City of Oaks green with warm red-clay accents */
-  --color-forest: #1f4a3d;
-  --color-forest-deep: #12302a;
-  --color-forest-soft: #2d6653;
-  --color-clay: #c8672e;
-  --color-clay-dark: #a54f1f;
-  --color-clay-soft: #f8e6d9;
-  --color-moss: #e3efe8;
-  --color-cream: #f4efe4;
-  --color-ink: #14201b;
-  --color-muted: #4f5f57;
-  --color-line: #dbe3de;
+  /* Fresh Water palette: deep blue with a warm coral accent.
+     Token names are kept from the first build (forest = primary blue,
+     clay = accent, moss/cream = light tints) so components did not need
+     a rename; only the values changed. */
+  --color-forest: #17408b;
+  --color-forest-deep: #0f2a5e;
+  --color-forest-soft: #2a5bb8;
+  --color-clay: #ef6f3c;
+  --color-clay-dark: #c9522a;
+  --color-clay-soft: #fde4d8;
+  --color-moss: #e8f0fb;
+  --color-cream: #f6f1e8;
+  --color-ink: #111a2e;
+  --color-muted: #4b5668;
+  --color-line: #d9e0ea;
   --color-paper: #ffffff;
-  --color-canvas: #f6f8f6;
+  --color-canvas: #f5f7fb;
 
   --font-display: var(--font-bricolage), system-ui, sans-serif;
   --font-sans: var(--font-figtree), system-ui, sans-serif;

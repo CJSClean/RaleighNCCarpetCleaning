@@ -5,7 +5,7 @@ type Variant = "clay" | "forest" | "outline" | "ghost-light";
 
 const styles: Record<Variant, string> = {
   clay:
-    "bg-clay text-white hover:bg-clay-dark shadow-[0_8px_20px_-10px_rgba(200,103,46,0.7)]",
+    "bg-clay text-white hover:bg-clay-dark shadow-[0_8px_20px_-10px_rgba(239,111,60,0.7)]",
   forest: "bg-forest text-white hover:bg-forest-soft",
   outline: "border border-line bg-paper text-forest hover:border-forest",
   "ghost-light": "border border-white/30 text-white hover:bg-white/10",

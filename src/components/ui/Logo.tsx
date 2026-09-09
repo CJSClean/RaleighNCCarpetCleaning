@@ -3,10 +3,13 @@ interface LogoProps {
   className?: string;
 }
 
-// Oak leaf mark (City of Oaks) with a two-line wordmark.
+// Wave-and-sparkle mark (clean water sweeping across carpet pile) with a
+// two-line wordmark. tone="light" is for use on the blue footer/hero.
 export default function Logo({ tone = "dark", className = "h-11" }: LogoProps) {
-  const ink = tone === "dark" ? "#1f4a3d" : "#ffffff";
-  const sub = tone === "dark" ? "#4f5f57" : "#c9d8d1";
+  const ink = tone === "dark" ? "#17408b" : "#ffffff";
+  const sub = tone === "dark" ? "#ef6f3c" : "#ffc3a8";
+  const disc = tone === "dark" ? "#17408b" : "#ffffff";
+  const wave = tone === "dark" ? "#ffffff" : "#17408b";
   return (
     <svg
       viewBox="0 0 320 56"
@@ -14,38 +17,44 @@ export default function Logo({ tone = "dark", className = "h-11" }: LogoProps) {
       role="img"
       aria-label="Raleigh NC Carpet Cleaning"
     >
-      <g transform="translate(2 2)">
-        <path
-          d="M26 2c9 6 15 15 12 27-2 8-7 13-12 19-5-6-10-11-12-19C11 17 17 8 26 2z"
-          fill={ink}
-        />
-        <path d="M26 10v34" stroke="#c8672e" strokeWidth="2" strokeLinecap="round" />
-        <path
-          d="M26 20c-3-2-6-2-9-1M26 20c3-2 6-2 9-1M26 30c-3-2-6-2-8-1M26 30c3-2 6-2 8-1"
-          stroke="#c8672e"
-          strokeWidth="1.6"
-          strokeLinecap="round"
-          fill="none"
-        />
-        <path d="M6 51h40" stroke={ink} strokeWidth="2" strokeLinecap="round" />
-      </g>
+      <circle cx="27" cy="28" r="25" fill={disc} />
+      <path
+        d="M9 32c6-15 13-15 18-4s12 11 18-5"
+        fill="none"
+        stroke={wave}
+        strokeWidth="5"
+        strokeLinecap="round"
+      />
+      <path
+        d="M13 41c5-9 10-9 14-3s9 6 13-3"
+        fill="none"
+        stroke={wave}
+        strokeWidth="3"
+        strokeLinecap="round"
+        opacity="0.45"
+      />
+      <path
+        d="M41 10l1.6 4.4L47 16l-4.4 1.6L41 22l-1.6-4.4L35 16l4.4-1.6z"
+        fill="#ef6f3c"
+      />
       <text
         x="64"
         y="27"
         fontFamily="var(--font-bricolage), system-ui, sans-serif"
         fontWeight="700"
         fontSize="24"
+        letterSpacing="-0.3"
         fill={ink}
       >
         Raleigh NC
       </text>
       <text
-        x="64"
+        x="65"
         y="47"
         fontFamily="var(--font-figtree), system-ui, sans-serif"
-        fontWeight="600"
-        fontSize="13.5"
-        letterSpacing="2.2"
+        fontWeight="700"
+        fontSize="12.5"
+        letterSpacing="3"
         fill={sub}
       >
         CARPET CLEANING
