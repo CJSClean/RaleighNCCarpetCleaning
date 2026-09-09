@@ -84,12 +84,12 @@ const faqs = [
   {
     question: "How hot is the water, and is it safe for every type of carpet?",
     answer:
-      "The truck-mounted unit heats water well above what a rental machine can produce, and the technician adjusts both heat and pressure to the fiber identified on the walkthrough. Synthetic fibers like nylon, polyester, and olefin take the full heat. Wool and some blends get a cooler rinse and a milder pre-spray so the fiber does not felt or lose its dye. The temperature is chosen for the carpet in front of us, not set once and left alone.",
+      "Our professional extraction unit heats its own water well above what a rental machine can produce, and the technician adjusts both heat and pressure to the fiber identified on the walkthrough. Synthetic fibers like nylon, polyester, and olefin take the full heat. Wool and some blends get a cooler rinse and a milder pre-spray so the fiber does not felt or lose its dye. The temperature is chosen for the carpet in front of us, not set once and left alone.",
   },
   {
     question: "How much water is left in the carpet when you finish?",
     answer:
-      "Very little. The wand recovers water in the same stroke that applies it, and the truck-mounted vacuum pulls most of it back out before the technician moves to the next section. The carpet feels damp on the surface, not wet through, and the pad underneath should stay dry. That is why most rooms are dry to the touch in four to eight hours. If a carpet is soaking after a cleaning, too much water went in or too little came out.",
+      "Very little. The wand recovers water in the same stroke that applies it, and the unit's strong vacuum pulls most of it back out before the technician moves to the next section. The carpet feels damp on the surface, not wet through, and the pad underneath should stay dry. That is why most rooms are dry to the touch in four to eight hours. If a carpet is soaking after a cleaning, too much water went in or too little came out.",
   },
   {
     question: "Why does the technician walk the rooms with me before starting?",

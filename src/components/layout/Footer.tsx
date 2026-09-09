@@ -36,7 +36,7 @@ export default function Footer() {
             <Logo className="h-12" />
             <p className="mt-5 max-w-sm text-sm leading-relaxed text-muted">
               Locally operated carpet, upholstery, rug, and tile cleaning for Raleigh and the Triangle.
-              Truck-mounted hot water extraction, walkthrough pricing, and a seven-day satisfaction guarantee.
+              Professional hot water extraction, walkthrough pricing, and a seven-day satisfaction guarantee.
             </p>
             <ul className="mt-6 space-y-2.5 text-sm">
               {HAS_PHONE && (

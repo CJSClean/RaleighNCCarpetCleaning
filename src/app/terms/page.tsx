@@ -64,7 +64,7 @@ const sections: Section[] = [
   {
     heading: "Cancellation and Rescheduling",
     body: [
-      "We plan technicians, trucks, and travel around your appointment, so notice matters.",
+      "We plan technicians, equipment, and travel around your appointment, so notice matters.",
     ],
     bullets: [
       "More than 24 hours' notice: no charge. You may reschedule or cancel freely.",
@@ -73,9 +73,9 @@ const sections: Section[] = [
     ],
   },
   {
-    heading: "Access and Parking",
+    heading: "Access, Water, and Power",
     body: [
-      "You are responsible for providing safe and legal access to the property at the scheduled time, whether by being present, leaving a key or lockbox, or sharing a code, and for a parking space within roughly 100 feet of the entry so the truck-mounted unit can reach the rooms with its hoses. If the technician cannot get in, or cannot park close enough to run equipment, the visit is treated as a lockout under the cancellation terms above. Running water and electricity are required to complete the work.",
+      "You are responsible for providing safe and legal access to the property at the scheduled time, whether by being present, leaving a key or lockbox, or sharing a code, and for access to a working water source and a standard electrical outlet so the extraction unit and air movers can run. If the technician cannot get in, the visit is treated as a lockout under the cancellation terms above. If running water or electricity is not available at the property, the technician may be unable to complete the work and the visit may be treated as a same-day cancellation.",
     ],
   },
   {
@@ -87,7 +87,7 @@ const sections: Section[] = [
   {
     heading: "Pets",
     body: [
-      `We treat pet stains and odors every day and are comfortable working around animals. For everyone's safety, please secure dogs and cats in a closed room or crate during the visit, since the front door remains open for hoses and the equipment is loud. ${SITE_CONFIG.name} is not responsible for pets that escape while a door is open for equipment.`,
+      `We treat pet stains and odors every day and are comfortable working around animals. For everyone's safety, please secure dogs and cats in a closed room or crate during the visit, since the technician moves in and out with equipment and the extraction unit is loud. ${SITE_CONFIG.name} is not responsible for pets that escape while a door is open for the technician or equipment.`,
     ],
   },
   {

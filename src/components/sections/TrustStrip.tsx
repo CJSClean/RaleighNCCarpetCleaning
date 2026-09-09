@@ -2,7 +2,7 @@ import { ShieldIcon, DropletIcon, CheckIcon, ClockIcon } from "@/components/ui/I
 import { SITE_CONFIG } from "@/lib/constants";
 
 const items = [
-  { icon: DropletIcon, label: "Hot water extraction", sub: "Truck-mounted, rinsed clean" },
+  { icon: DropletIcon, label: "Hot water extraction", sub: "Heated, rinsed, recovered" },
   { icon: ShieldIcon, label: "Insured technicians", sub: "Trained on every fiber type" },
   { icon: CheckIcon, label: "Seven-day guarantee", sub: "We re-treat at no charge" },
   { icon: ClockIcon, label: "Same-week booking", sub: SITE_CONFIG.hours },

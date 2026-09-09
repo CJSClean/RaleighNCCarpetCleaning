@@ -16,7 +16,7 @@ import { generateAboutPageSchema, generateBreadcrumbSchema, generateFAQSchema, S
 export const metadata: Metadata = {
   title: "About Raleigh NC Carpet Cleaning",
   description:
-    "Locally operated carpet, upholstery, rug, and tile cleaning in Raleigh, NC, with truck-mounted extraction, walkthrough pricing, and a seven-day guarantee.",
+    "Locally operated carpet, upholstery, rug, and tile cleaning in Raleigh, NC, with professional hot water extraction, walkthrough pricing, and a seven-day guarantee.",
   alternates: { canonical: `${SITE_URL}/about` },
 };
 
@@ -34,11 +34,11 @@ const values = [
   },
   {
     title: "Say the price on the walkthrough",
-    text: "The technician walks the rooms, counts the areas, checks the condition, and confirms the price before any hose comes off the truck. The number you hear then is the number on the invoice.",
+    text: "The technician walks the rooms, counts the areas, checks the condition, and confirms the price before any equipment comes through the door. The number you hear then is the number on the invoice.",
   },
   {
     title: "Rinse it all the way out",
-    text: "Residue left in the pile attracts soil and makes carpet look dirty again within weeks. Truck-mounted hot water extraction rinses the pre-treatment out and recovers the water immediately, so the carpet dries clean instead of sticky.",
+    text: "Residue left in the pile attracts soil and makes carpet look dirty again within weeks. Heated hot water extraction with strong vacuum recovery rinses the pre-treatment out and pulls the water back immediately, so the carpet dries clean instead of sticky.",
   },
   {
     title: "Own the result",
@@ -48,7 +48,7 @@ const values = [
 
 const promises = [
   "Insured technicians on every job",
-  "Truck-mounted hot water extraction, not a rental machine",
+  "Professional heated extraction, not a rental machine",
   "Fiber identification and a confirmed price before equipment comes in",
   "Air movers and furniture tabs left in place to speed drying",
   "A coordinator you can actually reach, seven days a week",
@@ -63,7 +63,7 @@ const faqs = [
   {
     question: "Are you insured?",
     answer:
-      "Yes. Every technician who enters your home is insured, and that coverage is in place on every visit, residential or commercial. If you are a property manager or facilities contact who needs documentation for your file, ask your coordinator and we will send it over before the appointment. We would rather answer the question up front than have you wonder about it while a hose is running through your hallway.",
+      "Yes. Every technician who enters your home is insured, and that coverage is in place on every visit, residential or commercial. If you are a property manager or facilities contact who needs documentation for your file, ask your coordinator and we will send it over before the appointment. We would rather answer the question up front than have you wonder about it while a technician is working in your hallway.",
   },
   {
     question: "Who will actually be in my home?",
@@ -73,7 +73,7 @@ const faqs = [
   {
     question: "What equipment do you use?",
     answer:
-      "Truck-mounted hot water extraction units, not rental or portable machines, for nearly every carpet job. The unit stays in the van and runs heated water and strong vacuum through hoses into the house, which is what lets us rinse to the backing and recover the water immediately. We also carry hand tools for upholstery and stairs, air movers to speed drying, UV lights for locating pet spots, and a pressure tool for tile and grout.",
+      "High-powered professional portable hot water extraction units, not rental machines, for nearly every carpet job. The unit comes inside with the technician, heats its own water, and recovers it with strong vacuum, so we can rinse to the backing and pull the water back immediately. Because nothing stays outside, it works the same in a condo or an upstairs apartment as in a house. We also carry hand tools for upholstery and stairs, air movers to speed drying, UV lights for pet spots, and a pressure tool for tile and grout.",
   },
   {
     question: "How are your technicians trained?",

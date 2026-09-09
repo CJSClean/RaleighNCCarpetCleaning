@@ -8,7 +8,7 @@ export const durhamCounty: CountyContent = {
   highlights: [
     "Durham and Research Triangle Park",
     "Wool-safe cleaning for historic homes",
-    "Truck-mounted extraction",
+    "Heated hot water extraction",
     "Move-out slots held for August",
   ],
   introTitle: "One city, one research park, and a lot of very different carpet",
@@ -17,7 +17,7 @@ export const durhamCounty: CountyContent = {
     "What sets Durham apart from Wake County is the age and range of its housing. Downtown and the neighborhoods around Duke East Campus hold homes built before the Second World War, many of them with wool area rugs over original heart pine. The converted tobacco warehouses near the American Tobacco Campus and Brightleaf have concrete slabs, exposed brick, and carpet or rugs laid over both. Then there is everything built after RTP took off: Woodcroft, Parkwood, Hope Valley, and the subdivisions around Southpoint, most of it with nylon or polyester carpet in bedrooms and bonus rooms.",
     "Those differences change how we work. Wool takes a cooler rinse, a neutral pH, and careful drying so the fibers do not shrink or bleed. Builder-grade polyester tolerates heat but mats in traffic lanes and needs a longer dwell time on the pre-treatment. Nylon in the subdivisions off Fayetteville Road and Hope Valley Road responds well to heat and takes a standard rinse. Slab floors in the warehouse conversions hold moisture, so we run air movers longer there. Our technicians identify the fiber on the walkthrough before quoting, adjust temperature and chemistry to it, and the price they give you is the price on the invoice.",
     "Durham also has one of the largest rental markets in the state. Duke University, Duke Health, NCCU, and the RTP employers bring thousands of people in every August, and thousands more move out the same month. Graduate students, medical residents, and new hires at the research park sign leases that start and end on the same few dates, so demand is concentrated. Most leases in the county require professional carpet cleaning at move-out, and we provide an itemized receipt that property managers accept. We hold move-out slots through late July and August and offer direct invoicing to managers with units in more than one building.",
-    "Every job in Durham County comes with the same standard as our Wake County work. The technician who cleans in Durham on Tuesday cleaned in North Raleigh on Monday, with the same truck and the same process. A technician confirms the price on the walkthrough before any equipment comes in, pre-treats spots and traffic lanes, extracts with truck-mounted hot water, sets air movers, and walks the finished carpet with you. If a spot returns within a week, the seven-day satisfaction guarantee covers a re-treat at no charge. Coordinators are available seven days a week to book, reschedule, or answer questions about any address in the county.",
+    "Every job in Durham County comes with the same standard as our Wake County work. The technician who cleans in Durham on Tuesday cleaned in North Raleigh on Monday, with the same equipment and the same process. A technician confirms the price on the walkthrough before any equipment comes in, pre-treats spots and traffic lanes, extracts with a powerful, professional-grade heated portable unit, sets air movers, and walks the finished carpet with you. If a spot returns within a week, the seven-day satisfaction guarantee covers a re-treat at no charge. Coordinators are available seven days a week to book, reschedule, or answer questions about any address in the county.",
   ],
   communities: [
     "Durham",
@@ -84,7 +84,7 @@ export const durhamCounty: CountyContent = {
     {
       question: "Is there a travel fee for Bahama or Rougemont?",
       answer:
-        "No. Every address inside Durham County is served at the same rate, with no travel fee and no minimum that changes by distance from the city. Bahama, Rougemont, and the unincorporated northern county are grouped with other stops on the same day so the technician's route makes sense, which is why we ask for a little flexibility on the date out there. Long gravel driveways are common, so tell us the layout and the van is placed where the hose reaches.",
+        "No. Every address inside Durham County is served at the same rate, with no travel fee and no minimum that changes by distance from the city. Bahama, Rougemont, and the unincorporated northern county are grouped with other stops on the same day so the technician's route makes sense, which is why we ask for a little flexibility on the date out there. Long gravel driveways are common and make no difference, since the extraction unit comes inside with the technician and runs off the home's water and a standard outlet.",
     },
     {
       question: "I am the tenant, not the landlord. Can I book the move-out cleaning myself?",
@@ -99,7 +99,7 @@ export const durhamCounty: CountyContent = {
     {
       question: "Are upholstery, tile, and pet odor treatment available county-wide too?",
       answer:
-        "Yes. Every service on the site is available at any Durham County address, not only carpet. Upholstery cleaning, area rug cleaning, pet stain and odor removal, tile and grout cleaning, and commercial work all come on the same truck, so a sofa in Trinity Park, a kitchen floor in Hope Valley, and a dog's favorite corner in Woodcroft can be handled on one visit. Each piece or area is quoted separately on the walkthrough before anything starts.",
+        "Yes. Every service on the site is available at any Durham County address, not only carpet. Upholstery cleaning, area rug cleaning, pet stain and odor removal, tile and grout cleaning, and commercial work all come with the same technician and equipment, so a sofa in Trinity Park, a kitchen floor in Hope Valley, and a dog's favorite corner in Woodcroft can be handled on one visit. Each piece or area is quoted separately on the walkthrough before anything starts.",
     },
     {
       question: "Does pollen season change when I should book?",

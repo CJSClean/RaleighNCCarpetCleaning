@@ -60,7 +60,7 @@ const contactFaqs = [
   {
     question: "Do you serve my address if it is outside the towns listed?",
     answer:
-      "Often, yes. The towns on the site are the ones we reach most, but technicians routinely go a little beyond them, especially along the main corridors out of Raleigh. Put your zip code in the form and the coordinator will tell you straight away whether we can get a van to you and whether the drive changes the schedule. If we cannot reach you, we will say so rather than guess.",
+      "Often, yes. The towns on the site are the ones we reach most, but technicians routinely go a little beyond them, especially along the main corridors out of Raleigh. Put your zip code in the form and the coordinator will tell you straight away whether we can get a technician to you and whether the drive changes the schedule. If we cannot reach you, we will say so rather than guess.",
   },
 ];
 

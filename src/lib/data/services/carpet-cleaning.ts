@@ -7,15 +7,15 @@ export const carpetCleaning: Service = {
   href: "/services/carpet-cleaning-raleigh-nc",
   icon: "carpet",
   shortDescription:
-    "Truck-mounted hot water extraction for bedrooms, living areas, stairs, and hallways. Traffic lanes lifted, spots treated, dry in hours instead of days.",
+    "Powerful hot water extraction for bedrooms, living areas, stairs, and hallways. Traffic lanes lifted, spots treated, dry in hours instead of days.",
   metaTitle: "Carpet Cleaning Raleigh NC | Hot Water Extraction, Dry in Hours",
   metaDescription:
     "Professional carpet cleaning in Raleigh, NC. Hot water extraction that lifts traffic lanes, pollen, and pet soil from wall-to-wall carpet. Upfront quotes, same-week appointments.",
   h1: "Carpet Cleaning Services in Raleigh, NC",
   subtitle:
-    "Deep hot water extraction for wall-to-wall carpet in houses, townhomes, and apartments across Raleigh and Wake County. Pre-treated, agitated, rinsed, and groomed, with an upfront price confirmed before we unload the van.",
+    "Deep hot water extraction for wall-to-wall carpet in houses, townhomes, and apartments across Raleigh and Wake County. Pre-treated, agitated, rinsed, and groomed, with an upfront price confirmed before any equipment comes in.",
   highlights: [
-    "Truck-mounted hot water extraction",
+    "Powerful hot water extraction",
     "Traffic lanes and spots pre-treated",
     "Dry in 4 to 8 hours, not days",
     "Price confirmed before we start",
@@ -125,9 +125,9 @@ export const carpetCleaning: Service = {
         "A properly rinsed carpet should not re-soil quickly. Stains that reappear a few days after cleaning are usually wicking, where soil deep in the pad rises as the carpet dries. If that happens within seven days, we come back and re-treat the spot at no charge.",
     },
     {
-      question: "Do you use truck-mounted equipment?",
+      question: "What equipment do you use?",
       answer:
-        "Yes for most homes. Truck-mounted units run hotter and recover more water than portables, which means a deeper clean and faster drying. For high-rise condos and apartments where the hose run is too long, we use a high-powered portable extractor with heated water.",
+        "A high-powered professional portable hot water extraction unit that comes inside with the technician. It heats its own water, rinses the carpet under pressure, and recovers the water with strong vacuum, running off your home's water and a standard outlet. Because nothing stays outside, no door is left open letting pollen or heat in and cool air out, and it works the same in apartments, condos, upper floors, and townhomes as in a house.",
     },
     {
       question: "How much does carpet cleaning cost in Raleigh?",

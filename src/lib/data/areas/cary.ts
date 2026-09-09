@@ -16,7 +16,7 @@ export const cary: AreaContent = {
     "Cary grew from a railroad stop to a town of nearly 180,000 people in about forty years, and most of that housing was built with carpet. The 1980s and 1990s subdivisions off Kildaire Farm Road and around MacGregor Downs tend to have nylon that has been cleaned many times and still has life in it. The newer construction in Amberly, Cary Park, and along the 540 corridor usually has polyester or triexta, which resists stains but mats in traffic lanes if it is not extracted regularly. Our Cary technicians see both every week and adjust the process to suit.",
     "Cary households skew toward families with young kids, two working parents, and at least one dog. That combination means juice, crayon, mud from the soccer fields at WakeMed Soccer Park, and pet accidents, all on carpet that was chosen for comfort rather than durability. We treat spots individually rather than hoping the main pass catches them, and we carry an enzyme line for the pet areas that always seem to be in the same corner.",
     "Scheduling in Cary revolves around school pickup and Research Triangle Park commutes. We hold morning slots that finish before 2pm and evening slots that start after 5pm, and Saturdays are available for households that cannot do a weekday. Because our equipment recovers most of the water, carpets cleaned in the morning are usually dry by the time everyone is home.",
-    "Townhomes and condos in communities like Weston, Regency Park, and around Downtown Cary bring their own logistics: shared entries, HOA parking rules, and stairs that are the most-walked carpet in the home. We plan the hose run so it does not block a neighbor's door, quote stairs as their own line item, and coordinate with the HOA if a certificate of insurance is required.",
+    "Townhomes and condos in communities like Weston, Regency Park, and around Downtown Cary bring their own logistics: shared entries, HOA rules, and stairs that are the most-walked carpet in the home. Our professional portable hot water extraction unit comes inside with the technician, so nothing sits in a shared entry, no neighbor's door is blocked, and your own door stays closed while we work. We quote stairs as their own line item and coordinate with the HOA if a certificate of insurance is required.",
     "Cary residents tend to ask about products, and we welcome it. Our standard pre-sprays rinse out fully with the extraction pass, so nothing stays in the carpet. For households that prefer it, we carry a fragrance-free, plant-based line at no extra charge, and it becomes a permanent note on your account once you ask.",
     "Whether you need the whole house done after pollen season, one bonus room where the dog sleeps, or a sectional and a wool rug in the living room, the process is the same: describe the job, get a firm quote before booking, and see it confirmed on the walkthrough before the technician starts. Every visit in Cary is backed by our seven-day satisfaction guarantee.",
   ],
@@ -37,7 +37,7 @@ export const cary: AreaContent = {
     {
       title: "Townhome logistics sorted",
       description:
-        "Shared entries, HOA parking, and long hose runs are routine. Stairs are quoted as their own line item and cleaned with a dedicated tool.",
+        "Shared entries, HOA rules, and upper-floor units are routine, since the equipment comes inside with the technician. Stairs are quoted as their own line item and cleaned with a dedicated tool.",
     },
     {
       title: "Cleaner products, same results",
@@ -84,7 +84,7 @@ export const cary: AreaContent = {
     {
       question: "Do you come out to Preston and Lochmere, or only central Cary?",
       answer:
-        "Both, along with every other neighborhood in town. Preston, MacGregor Downs, and Lochmere are some of our most regular stops, and the larger homes there usually mean a longer hose run to an upstairs bonus room, which is routine for us. We also cover Kildaire Farm, Carpenter Village, Stone Creek, Parkway, and the newer communities in Amberly and Cary Park. If you are unsure whether your street counts as Cary, send the address and we confirm.",
+        "Both, along with every other neighborhood in town. Preston, MacGregor Downs, and Lochmere are some of our most regular stops, and the larger homes there usually mean an upstairs bonus room and a long staircase, both routine for us since the equipment comes up with the technician. We also cover Kildaire Farm, Carpenter Village, Stone Creek, Parkway, and the newer communities in Amberly and Cary Park. If you are unsure whether your street counts as Cary, send the address and we confirm.",
     },
     {
       question: "What should I do before the technician arrives?",
@@ -94,7 +94,7 @@ export const cary: AreaContent = {
     {
       question: "Will the same technician come back next time?",
       answer:
-        "Whenever the schedule allows, yes. Your account keeps the notes from the first visit, including the fiber in each room, the product preference, where the pet spots were, and how you like the hose routed through a townhome entry, so the next visit starts where the last one ended. Many Cary families book the same technician every spring after pollen season. If you have a preference, mention it in the form and we plan around it.",
+        "Whenever the schedule allows, yes. Your account keeps the notes from the first visit, including the fiber in each room, the product preference, where the pet spots were, and which entry you prefer the technician to use in a townhome, so the next visit starts where the last one ended. Many Cary families book the same technician every spring after pollen season. If you have a preference, mention it in the form and we plan around it.",
     },
   ],
   ctaTitle: "Book a Cary carpet cleaning this week",

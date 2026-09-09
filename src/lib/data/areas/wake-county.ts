@@ -8,7 +8,7 @@ export const wakeCounty: CountyContent = {
   highlights: [
     "Raleigh and all twelve county municipalities",
     "Same process county-wide",
-    "Truck-mounted extraction",
+    "Heated hot water extraction",
     "Same-week appointments",
   ],
   introTitle: "One county, a million residents, and a lot of carpet",
@@ -86,7 +86,7 @@ export const wakeCounty: CountyContent = {
     {
       question: "Is there a travel fee for addresses out toward Zebulon or Wendell?",
       answer:
-        "No. There is no travel fee anywhere inside Wake County, and no minimum that changes by town. Zebulon, Wendell, Rolesville, Willow Spring, and the unincorporated land between them are on the same route as Cary and North Raleigh. The only practical difference on a rural lot is the driveway. If the house sits well back from the road, mention it on the form so the technician brings enough hose to reach the far bedrooms without moving the van.",
+        "No. There is no travel fee anywhere inside Wake County, and no minimum that changes by town. Zebulon, Wendell, Rolesville, and Willow Spring are on the same route as Cary and North Raleigh. The extraction unit comes inside with the technician and runs off the home's water and a standard outlet, so a house at the end of a gravel lane is set up the same way as one in a subdivision. Mention a gate code or a long private road on the form so the technician arrives on time.",
     },
     {
       question: "Do you pick up area rugs anywhere in the county?",

@@ -16,7 +16,7 @@ const PATH = "/preparing-for-your-cleaning";
 export const metadata: Metadata = {
   title: "Preparing for Your Carpet Cleaning",
   description:
-    "How to get your Raleigh home ready for carpet cleaning: clearing floors, pets, parking for the van, drying times, furniture tabs, and our cancellation policy.",
+    "How to get your Raleigh home ready for carpet cleaning: clearing floors, pets, water and outlet access, drying times, furniture tabs, and our cancellation policy.",
   alternates: { canonical: `${SITE_URL}${PATH}` },
 };
 
@@ -31,19 +31,19 @@ const beforeWeArrive = [
   },
   {
     title: "Move fragile items and electronics",
-    text: "Take lamps, plants, framed photos, and anything breakable off the carpeted floor and off low tables in the work area. Move televisions, game consoles, speakers, and cords out of the rooms or onto a hard surface. Hoses and air movers run through these spaces and we do not want anything knocked over or damp.",
+    text: "Take lamps, plants, framed photos, and anything breakable off the carpeted floor and off low tables in the work area. Move televisions, game consoles, speakers, and cords out of the rooms or onto a hard surface. The extraction unit and air movers move through these spaces and we do not want anything knocked over or damp.",
   },
   {
     title: "Secure your pets",
-    text: "Please keep dogs and cats in a closed room, a crate, or with you during the visit. The truck-mounted unit is loud, the front door stays open for the hose, and a secured pet keeps both your pet and our technician safe. Tell us about any animal that should never be let outside.",
+    text: "Please keep dogs and cats in a closed room, a crate, or with you during the visit. The extraction unit is loud, the technician moves between rooms with equipment and cords, and a secured pet keeps both your pet and our technician safe. Tell us about any animal that should never be let outside.",
   },
   {
     title: "Note the spots you want treated",
     text: "Walk the rooms before we arrive and note any stain, pet spot, or traffic lane you are concerned about. Point them out on the walkthrough, or tell your coordinator when you book. Knowing what caused a spot helps the technician pick the right treatment the first time.",
   },
   {
-    title: "Clear a parking spot for the van",
-    text: "The truck-mounted unit stays in the van and runs hoses into the house, so the van needs to park within about 100 feet of the door we will use. Leave a driveway space or curb spot open. If you are in a townhome or apartment with assigned parking, send your coordinator a note on where the van can sit.",
+    title: "Give us access to water and an outlet",
+    text: "Our professional extraction unit comes inside with the technician and heats its own water. It fills from a sink, tub, or outside spigot and plugs into a standard outlet, so please make sure one of each is reachable and clear. Nothing stays outside, so there is no need to hold a space out front or leave a door propped open. Let your coordinator know which rooms are on the list so the technician can plan a clear path from the door.",
   },
   {
     title: "Keep the air conditioning on",
@@ -86,17 +86,17 @@ const faqs = [
   {
     question: "What should I do with my pets during the visit?",
     answer:
-      "Keep dogs and cats in a closed room, a crate, or with you for the whole visit. The front door stays open for the hose, the truck-mounted unit is loud, and a nervous animal can slip out or get underfoot. Tell your coordinator or the technician about any pet that must never go outside. If you are booking pet treatment, note where the accidents happened so the technician can check those spots under UV light.",
+      "Keep dogs and cats in a closed room, a crate, or with you for the whole visit. The extraction unit is loud, the technician is in and out of the door with equipment, and a nervous animal can slip out or get underfoot. Tell your coordinator or the technician about any pet that must never go outside. If you are booking pet treatment, note where the accidents happened so the technician can check those spots under UV light.",
   },
   {
-    question: "Where should the van park, and how far can the hose run?",
+    question: "Does the equipment work in apartments, condos, and upper floors?",
     answer:
-      "As close to the door we will use as possible, ideally in the driveway or at the curb directly out front. Hoses run from the van into the house and cover roughly 100 feet comfortably, with longer runs possible on request. For townhomes and apartments with assigned parking, a gate, or an elevator, send your coordinator a note before the visit so the technician arrives with the right length of hose.",
+      "Yes. Our professional hot water extraction unit comes inside with the technician, so nothing stays outside and nothing runs across the yard or up a stairwell. It works the same on the third floor of a condo building as in a single-story house, and the same in offices and townhomes. There is no door propped open, so pollen and summer heat stay out and the air conditioning stays in. For a building with a gate, a lobby, or an elevator, send your coordinator the access details before the visit.",
   },
   {
     question: "Do you need water or power from the house?",
     answer:
-      "Usually not. The truck-mounted unit carries its own fresh water and heats it in the van, and the recovered water is held in a tank on the truck, not dumped on your property. On a long job or a very large home the technician may ask to refill from an outside spigot. We plug in air movers to speed drying, which use a standard outlet. Nothing else from the house is required.",
+      "Yes, both. The extraction unit fills from your water supply, usually a kitchen or utility sink, a tub, or an outside spigot, and heats the water itself. It plugs into a standard household outlet, as do the air movers we set out to speed drying. Please make sure a faucet and an outlet near the work area are reachable and clear. Recovered water is held in the unit's tank and emptied into a toilet or utility drain, never dumped outside.",
   },
   {
     question: "How long until I can walk on the carpet and put furniture back?",
@@ -199,7 +199,7 @@ export default function PreparingPage() {
           <SectionHeading
             eyebrow="Cancellation policy"
             title="Rescheduling and cancellations"
-            intro="We plan technicians, trucks, and travel around your appointment, so notice matters. Here is exactly what applies."
+            intro="We plan technicians, equipment, and travel around your appointment, so notice matters. Here is exactly what applies."
           />
           <div className="overflow-x-auto rounded-xl border border-line">
             <table className="w-full min-w-[420px] text-left text-sm">
@@ -251,7 +251,7 @@ export default function PreparingPage() {
 
         <FAQ
           title="Questions about cleaning day"
-          intro="What to expect before the van arrives, during the visit, and while the carpet dries."
+          intro="What to expect before the technician arrives, during the visit, and while the carpet dries."
           items={faqs}
         />
 

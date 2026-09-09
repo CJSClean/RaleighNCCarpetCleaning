@@ -25,7 +25,7 @@ export const processSteps: ProcessStep[] = [
   },
   {
     name: "Hot water extraction",
-    text: "Truck-mounted or high-powered portable equipment rinses the carpet with heated water and recovers it immediately, lifting soil and residue out of the pile.",
+    text: "A high-powered professional extraction unit rinses the carpet with heated water and recovers it immediately with strong vacuum, lifting soil and residue out of the pile.",
   },
   {
     name: "Spot treatment",

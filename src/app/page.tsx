@@ -22,7 +22,7 @@ const TITLE = "Raleigh NC Carpet Cleaning | Carpet, Upholstery & Rug Cleaning in
 export const metadata: Metadata = {
   title: { absolute: TITLE },
   description:
-    "Professional carpet cleaning in Raleigh, NC. Truck-mounted hot water extraction for carpet, upholstery, rugs, pet stains, and tile across Wake County. Upfront quotes, same-week slots.",
+    "Professional carpet cleaning in Raleigh, NC. Professional hot water extraction for carpet, upholstery, rugs, pet stains, and tile across Wake County. Upfront quotes, same-week slots.",
   alternates: { canonical: SITE_URL },
   openGraph: {
     title: TITLE,
@@ -47,7 +47,7 @@ const faqs = [
   {
     question: "What cleaning method do you use?",
     answer:
-      "Hot water extraction, sometimes called steam cleaning, using truck-mounted equipment for most homes. The carpet is vacuumed, pre-treated, agitated, rinsed with heated water under pressure, and the water is recovered immediately. It is the method most carpet manufacturers require to keep a warranty valid.",
+      "Hot water extraction, sometimes called steam cleaning, using a high-powered professional unit that comes inside with the technician and heats its own water. The carpet is vacuumed, pre-treated, agitated, rinsed with heated water under pressure, and the water is recovered immediately by strong vacuum. It is the method most carpet manufacturers require to keep a warranty valid, and it works the same in an apartment or on an upper floor as in a house.",
   },
   {
     question: "How long does carpet take to dry?",
@@ -111,7 +111,7 @@ const benefits = [
 
 const introParagraphs = [
   "Raleigh carpet has a hard life. Spring brings six weeks of pine and oak pollen that rides in on every shoe and settles into the pile. Summer humidity keeps it damp enough to bond. Red clay tracks in from the yard, the ballfield, and the construction site down the street, and dogs bring in a little of everything. By the time the hallway looks gray, the base of the carpet is holding far more than you can see. Raleigh NC Carpet Cleaning was built for exactly that carpet and that climate.",
-  "We clean wall-to-wall carpet, upholstery, area rugs, and tile and grout in houses, townhomes, condos, and apartments across Raleigh and the Triangle, and we treat pet stains and odor as its own service rather than an afterthought. The method is truck-mounted hot water extraction: a thorough dry vacuum, a fiber-safe pre-spray worked into the pile, a heated rinse under pressure, and immediate recovery of the water so the carpet is dry in hours rather than days. It is the process most carpet manufacturers require to keep a warranty valid, and it is the one that actually removes soil instead of hiding it.",
+  "We clean wall-to-wall carpet, upholstery, area rugs, and tile and grout in houses, townhomes, condos, and apartments across Raleigh and the Triangle, and we treat pet stains and odor as its own service rather than an afterthought. The method is professional hot water extraction with a high-powered heated unit that comes inside with the technician: a thorough dry vacuum, a fiber-safe pre-spray worked into the pile, a heated rinse under pressure, and immediate recovery of the water so the carpet is dry in hours rather than days. It is the process most carpet manufacturers require to keep a warranty valid, and it is the one that actually removes soil instead of hiding it.",
   "We keep our promises simple. The price is quoted by the room before you book and confirmed by the technician on the walkthrough before any equipment comes in. Stairs, pet treatment, and fiber protector are line items you approve up front, not surprises on the invoice. The technicians are insured and trained on fiber identification, and every job is backed by a seven-day satisfaction guarantee: if a spot returns or an area does not look right, we come back and re-treat it at no charge.",
   "Whether you need the whole house done after pollen season, a move-out cleaning with a receipt for the property manager, a sectional that has survived two kids and a cat, or an office hallway cleaned after hours, there is a service built for it below. Read what each one includes, check the area page for your town, and request a quote when you are ready. Most first appointments are placed within the same week.",
 ];
@@ -124,9 +124,9 @@ export default function HomePage() {
         <Hero
           eyebrow="Serving Raleigh, Wake County, and the Triangle"
           title="Professional Carpet Cleaning in Raleigh, NC"
-          subtitle="Truck-mounted hot water extraction for carpet, upholstery, area rugs, pet stains, and tile. Walkthrough pricing, dry in hours, and a seven-day satisfaction guarantee from a locally operated team."
+          subtitle="Professional hot water extraction for carpet, upholstery, area rugs, pet stains, and tile. Walkthrough pricing, dry in hours, and a seven-day satisfaction guarantee from a locally operated team."
           highlights={[
-            "Truck-mounted hot water extraction",
+            "Heated, high-powered extraction",
             "Price confirmed before we start",
             "Insured, trained technicians",
             "Same-week appointments, 7 days",
