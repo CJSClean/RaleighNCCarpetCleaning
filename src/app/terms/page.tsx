@@ -14,6 +14,7 @@ interface Section {
   heading: string;
   body?: string[];
   bullets?: string[];
+  outro?: string[];
 }
 
 const sections: Section[] = [
@@ -62,14 +63,23 @@ const sections: Section[] = [
     ],
   },
   {
-    heading: "Cancellation and Rescheduling",
+    heading: "Required Card on File",
     body: [
-      "We plan technicians, equipment, and travel around your appointment, so notice matters.",
+      "All of our billing is handled electronically via trusted third-party provider Stripe, where you can pay by credit or debit card. It is not possible for us to see any payment method details, so rest assured that your information is safe. We will save your payment method on file and charge you automatically after each appointment. Receipts will be emailed to your email on file. We require all clients to have a working payment method on file, otherwise, we reserve the right to cancel service.",
+    ],
+  },
+  {
+    heading: "Cancellation and Rescheduling (48-Hour Notice Required)",
+    body: [
+      "We plan technicians, equipment, and travel around your appointment, so notice matters. To ensure fairness to our team and other customers, we reserve the right to charge the following fees via the card on file.",
     ],
     bullets: [
-      "More than 24 hours' notice: no charge. You may reschedule or cancel freely.",
-      "Less than 24 hours' notice: a rescheduling fee applies.",
-      "Same-day cancellation, no-show, or lockout: the appointment may be billed.",
+      "Cancellations or reschedules made less than 48 hours before the scheduled service will incur a $75 fee.",
+      "Cancellations or reschedules made less than 24 hours before the scheduled service will be charged 50% of the booking price.",
+      "Cancellations or reschedules made on the same day of a scheduled service, no-shows, and lockouts will be charged 100% of the booking price.",
+    ],
+    outro: [
+      "To avoid cancellation fees, we kindly ask that you notify us as soon as possible if you need to reschedule or cancel your appointment. Thank you!",
     ],
   },
   {
@@ -174,6 +184,9 @@ export default function TermsPage() {
                       ))}
                     </ul>
                   )}
+                  {s.outro?.map((p, i) => (
+                    <p key={i} className="mt-3">{p}</p>
+                  ))}
                 </div>
               </div>
             ))}
