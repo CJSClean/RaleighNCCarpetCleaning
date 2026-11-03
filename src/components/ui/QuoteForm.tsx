@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { services } from "@/lib/data/services";
 import { Button } from "./Button";
@@ -47,6 +47,14 @@ export default function QuoteForm({
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
+  // False until React has hydrated this form. Until then the submit handler is
+  // not attached yet, so the browser would submit the form natively.
+  const [isReady, setIsReady] = useState(false);
+
+  useEffect(() => {
+    setIsReady(true);
+  }, []);
+
   const update = (
     e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement>
   ) => setData({ ...data, [e.target.name]: e.target.value });
@@ -72,8 +80,14 @@ export default function QuoteForm({
     }
   };
 
+  // action and method matter only before hydration. Without them the browser
+  // defaults to GET on the current URL, which drops the lead and writes the
+  // name, phone and email into the address bar. Posting to Netlify's form
+  // endpoint instead keeps the lead and keeps the details out of the URL.
+  // Once hydrated, handleSubmit calls preventDefault and neither is used.
   return (
-    <form onSubmit={submit} className="space-y-3" name="quote">
+    <form onSubmit={submit} className="space-y-3" name="quote" action="/__forms.html" method="POST">
+      <input type="hidden" name="form-name" value="quote" />
       <p className="hidden">
         <label>
           Leave this empty: <input name="bot-field" value={data["bot-field"]} onChange={update} />
@@ -122,7 +136,7 @@ export default function QuoteForm({
         </div>
       )}
       {error && <p className="text-sm text-clay">{error}</p>}
-      <Button type="submit" disabled={submitting} className="w-full disabled:opacity-60">
+      <Button type="submit" disabled={!isReady || submitting} className="w-full disabled:opacity-60">
         {submitting ? "Sending..." : submitLabel}
       </Button>
       <p className="text-center text-xs text-muted">
